@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DAS Dataset Download Manager</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #111111;
+      --muted: #666666;
+      --border: #dddddd;
+      --row-hover: #f7f7f7;
+      --row-active: #eef2f6;
+      --ok: #137333;
+      --err: #c5221f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --fg: #e8e8e8;
+        --muted: #999999;
+        --border: #2e2e2e;
+        --row-hover: #1c1c1c;
+        --row-active: #1f2937;
+        --ok: #81c995;
+        --err: #f28b82;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px 24px;
+      background: var(--bg);
+      color: var(--fg);
+      font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+      margin-bottom: 18px;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    h1 { font-size: 15px; margin: 0; font-weight: 600; }
+    h2 { font-size: 13px; margin: 20px 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+    .meta { color: var(--muted); font-size: 12px; }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--border); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-variant-numeric: tabular-nums;
+    }
+    th, td {
+      padding: 6px 10px;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    th { font-weight: 600; color: var(--muted); background: var(--row-hover); }
+    tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background: var(--row-hover); }
+    tbody tr.active { background: var(--row-active); }
+    .wrap-cell { white-space: normal; max-width: 360px; word-break: break-all; }
+    button, input, select {
+      font: inherit;
+      font-size: 12px;
+      color: var(--fg);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 3px 8px;
+      border-radius: 2px;
+    }
+    button { cursor: pointer; }
+    button:hover:not(:disabled) { background: var(--row-hover); }
+    button:disabled { opacity: 0.45; cursor: default; }
+    .controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .status-ok { color: var(--ok); }
+    .status-err { color: var(--err); }
+    progress { width: 110px; height: 10px; vertical-align: middle; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>DAS Dataset Download &amp; OptoDAS Conversion Manager</h1>
+      <div class="meta">Target directory (git-ignored): <span id="dest-root">downloads/</span></div>
+    </div>
+    <div class="controls" style="margin:0">
+      <label class="meta">HDF5 Convert Mode:
+        <select id="convert-mode">
+          <option value="in-place">in-place (0-copy hardlink, ~1ms/file)</option>
+          <option value="link">link (0-copy sidecar *_optodas.hdf5)</option>
+          <option value="copy">copy (standalone rewrite; auto for .mat)</option>
+        </select>
+      </label>
+      <span id="poll-indicator" class="meta">Idle</span>
+      <button type="button" id="btn-refresh">Refresh</button>
+    </div>
+  </header>
+
+  <section id="jobs-section">
+    <h2>Active &amp; Recent Jobs (Download / Convert)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Job</th>
+            <th>Type</th>
+            <th>Dataset</th>
+            <th>Current File</th>
+            <th>Files</th>
+            <th>Progress</th>
+            <th>Bytes</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="jobs-body">
+          <tr><td colspan="9" class="meta">No jobs started in this session.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Validated Global Datasets</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Dataset ID</th>
+            <th>Place / Region</th>
+            <th>Protocol</th>
+            <th>Est. Size</th>
+            <th>Manifest Files</th>
+            <th>Local Files</th>
+            <th>Validation</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="catalog-body">
+          <tr><td colspan="8" class="meta">Loading catalog...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="inspector-section" hidden>
+    <h2 id="inspector-title">Manifest Files</h2>
+    <div class="controls">
+      <label>Regex: <input type="text" id="filter-regex" placeholder="e.g. \.h5$ or 20240506" size="24"></label>
+      <label>Max files: <input type="number" id="filter-limit" value="5" min="1" max="500" style="width:64px"></label>
+      <button type="button" id="btn-filter">Filter</button>
+      <button type="button" id="btn-download-matched">Download Matched</button>
+      <button type="button" id="btn-convert-current">Convert Local to OptoDAS</button>
+      <button type="button" id="btn-reindex">Re-index Remote</button>
+      <span id="inspector-summary" class="meta"></span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Relative Path</th>
+            <th>Ext</th>
+            <th>Remote Size</th>
+            <th>Local Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="manifest-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <script>
+    let currentDatasetId = null;
+    let pollTimer = null;
+
+    function fmtBytes(bytes) {
+      if (!bytes || bytes <= 0) return "0 B";
+      const units = ["B", "KB", "MB", "GB", "TB"];
+      const i = Math.min(Math.floor(Math.log(bytes) / Math.log(1024)), units.length - 1);
+      return (bytes / Math.pow(1024, i)).toFixed(i === 0 ? 0 : 2) + " " + units[i];
+    }
+
+    function esc(str) {
+      const d = document.createElement("div");
+      d.textContent = str == null ? "" : String(str);
+      return d.innerHTML;
+    }
+
+    async function fetchCatalog() {
+      const res = await fetch("/api/catalog");
+      const data = await res.json();
+      document.getElementById("dest-root").textContent = data.dest_root || "downloads/";
+      const tbody = document.getElementById("catalog-body");
+
+      if (!data.datasets || data.datasets.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="8" class="meta">No datasets in catalog.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = data.datasets.map(ds => {
+        const val = ds.validation || {};
+        const vText = val.validated
+          ? `<span class="status-ok">PASS (${esc(val.detected_signature || "OK")})</span>`
+          : `<span class="status-err">UNVERIFIED</span>`;
+        const localText = ds.local_files_count > 0
+          ? `${ds.local_files_count} (${fmtBytes(ds.local_bytes)})`
+          : "0";
+        const activeCls = ds.id === currentDatasetId ? "active" : "";
+        const canConvert = ds.local_files_count > 0 ? "" : "disabled";
+        return `
+          <tr class="${activeCls}" data-id="${esc(ds.id)}">
+            <td><strong>${esc(ds.id)}</strong></td>
+            <td class="wrap-cell">${esc(ds.region)}</td>
+            <td>${esc(ds.access_protocol)}</td>
+            <td>${esc(ds.estimated_size)}</td>
+            <td>${ds.manifest_files_count}</td>
+            <td>${esc(localText)}</td>
+            <td>${vText}</td>
+            <td>
+              <button type="button" onclick="selectDataset('${esc(ds.id)}')">Inspect</button>
+              <button type="button" ${canConvert} onclick="convertDataset('${esc(ds.id)}')">Convert Data</button>
+            </td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    async function selectDataset(datasetId) {
+      currentDatasetId = datasetId;
+      document.getElementById("inspector-section").hidden = false;
+      document.getElementById("inspector-title").textContent = `Manifest Files — ${datasetId}`;
+      await fetchCatalog();
+      await loadManifestFiles();
+    }
+
+    async function loadManifestFiles() {
+      if (!currentDatasetId) return;
+      const match = document.getElementById("filter-regex").value.trim();
+      const tbody = document.getElementById("manifest-body");
+      const summary = document.getElementById("inspector-summary");
+      tbody.innerHTML = '<tr><td colspan="5" class="meta">Loading manifest...</td></tr>';
+
+      const url = `/api/manifest/${encodeURIComponent(currentDatasetId)}?match=${encodeURIComponent(match)}&limit=100`;
+      const res = await fetch(url);
+      const data = await res.json();
+      if (!res.ok) {
+        tbody.innerHTML = `<tr><td colspan="5" class="status-err">${esc(data.error || "Failed to load manifest")}</td></tr>`;
+        summary.textContent = "";
+        return;
+      }
+
+      summary.textContent = `Showing ${data.files.length} of ${data.total_matched} matched (${data.total_indexed} total indexed)`;
+      if (data.files.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" class="meta">No files match filter.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = data.files.map(f => {
+        const sizeLabel = f.size_bytes ? fmtBytes(f.size_bytes) : (f.size_hint || "-");
+        const localStatus = f.downloaded
+          ? `<span class="status-ok">Downloaded (${fmtBytes(f.local_bytes)})</span>`
+          : `<span class="meta">Not local</span>`;
+        const encodedPath = encodeURIComponent(f.relative_path);
+        return `
+          <tr>
+            <td class="wrap-cell"><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.relative_path)}</a></td>
+            <td>${esc(f.extension || "-")}</td>
+            <td>${esc(sizeLabel)}</td>
+            <td>${localStatus}</td>
+            <td><button type="button" onclick="downloadSingle('${encodedPath}')">Download</button></td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    async function downloadSingle(encodedRelPath) {
+      if (!currentDatasetId) return;
+      const relPath = decodeURIComponent(encodedRelPath);
+      await startDownload({ dataset_id: currentDatasetId, relative_paths: [relPath] });
+    }
+
+    async function downloadMatched() {
+      if (!currentDatasetId) return;
+      const match = document.getElementById("filter-regex").value.trim();
+      const limit = parseInt(document.getElementById("filter-limit").value, 10) || 5;
+      await startDownload({ dataset_id: currentDatasetId, match, limit });
+    }
+
+    async function startDownload(payload) {
+      const res = await fetch("/api/download", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        alert(data.error || "Failed to start download");
+        return;
+      }
+      await fetchJobs();
+      ensurePolling();
+    }
+
+    async function convertDataset(datasetId) {
+      const mode = document.getElementById("convert-mode").value;
+      const res = await fetch("/api/convert", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ dataset_id: datasetId, mode })
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        alert(data.error || "Failed to start conversion");
+        return;
+      }
+      await fetchJobs();
+      ensurePolling();
+    }
+
+    async function cancelJob(jobId) {
+      await fetch(`/api/jobs/${encodeURIComponent(jobId)}/cancel`, { method: "POST" });
+      await fetchJobs();
+    }
+
+    async function reindexCurrent() {
+      if (!currentDatasetId) return;
+      const btn = document.getElementById("btn-reindex");
+      btn.disabled = true;
+      btn.textContent = "Indexing...";
+      try {
+        await fetch(`/api/index/${encodeURIComponent(currentDatasetId)}`, { method: "POST" });
+        await fetchCatalog();
+        await loadManifestFiles();
+      } finally {
+        btn.disabled = false;
+        btn.textContent = "Re-index Remote";
+      }
+    }
+
+    async function fetchJobs() {
+      const res = await fetch("/api/jobs");
+      const data = await res.json();
+      const jobs = data.jobs || [];
+      const tbody = document.getElementById("jobs-body");
+
+      if (jobs.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="9" class="meta">No jobs started in this session.</td></tr>';
+        return false;
+      }
+
+      let anyActive = false;
+      tbody.innerHTML = jobs.map(j => {
+        const isRunning = j.status === "queued" || j.status === "downloading" || j.status.startsWith("converting");
+        if (isRunning) anyActive = true;
+        const pct = j.current_file_total > 0
+          ? Math.min(100, Math.round((j.current_file_bytes / j.current_file_total) * 100))
+          : 0;
+        const progHtml = j.current_file_total > 0
+          ? `<progress value="${pct}" max="100"></progress> ${pct}%`
+          : (isRunning ? "working..." : "-");
+        const statusCls = j.status === "completed" ? "status-ok" : (j.status === "error" ? "status-err" : "");
+        const actionHtml = isRunning
+          ? `<button type="button" onclick="cancelJob('${esc(j.job_id)}')">Cancel</button>`
+          : "";
+        return `
+          <tr>
+            <td>${esc(j.job_id)}</td>
+            <td>${esc(j.job_type || "download")}</td>
+            <td>${esc(j.dataset_id)}</td>
+            <td class="wrap-cell">${esc(j.current_file || "-")}</td>
+            <td>${j.files_completed} / ${j.files_total}</td>
+            <td>${progHtml}</td>
+            <td>${fmtBytes(j.total_bytes_downloaded)}</td>
+            <td class="${statusCls}">${esc(j.status)}${j.error ? ": " + esc(j.error) : ""}</td>
+            <td>${actionHtml}</td>
+          </tr>
+        `;
+      }).join("");
+
+      return anyActive;
+    }
+
+    function ensurePolling() {
+      if (pollTimer) return;
+      document.getElementById("poll-indicator").textContent = "Monitoring active jobs...";
+      pollTimer = setInterval(async () => {
+        const active = await fetchJobs();
+        if (!active) {
+          clearInterval(pollTimer);
+          pollTimer = null;
+          document.getElementById("poll-indicator").textContent = "Idle";
+          await fetchCatalog();
+          if (currentDatasetId) await loadManifestFiles();
+        }
+      }, 1000);
+    }
+
+    document.getElementById("btn-refresh").addEventListener("click", async () => {
+      await fetchCatalog();
+      await fetchJobs();
+      if (currentDatasetId) await loadManifestFiles();
+    });
+    document.getElementById("btn-filter").addEventListener("click", loadManifestFiles);
+    document.getElementById("filter-regex").addEventListener("keydown", e => {
+      if (e.key === "Enter") loadManifestFiles();
+    });
+    document.getElementById("btn-download-matched").addEventListener("click", downloadMatched);
+    document.getElementById("btn-convert-current").addEventListener("click", () => {
+      if (currentDatasetId) convertDataset(currentDatasetId);
+    });
+    document.getElementById("btn-reindex").addEventListener("click", reindexCurrent);
+
+    fetchCatalog();
+    fetchJobs();
+  </script>
+</body>
+</html>

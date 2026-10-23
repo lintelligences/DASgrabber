@@ -1,0 +1,2 @@
+# Lightweight JSON manifests of remote HTTP/S3 directory structures live here.
+# Raw or processed waveform files (.h5, .sgy, .tdms, .bin, etc.) are blocked by .gitignore.

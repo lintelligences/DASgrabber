@@ -1,0 +1,810 @@
+{
+  "protocol": "aws_s3_anonymous",
+  "root_url": "https://nrel-pds-porotomo.s3.amazonaws.com/",
+  "s3_prefix": "DAS/H5/DASH/20160311/",
+  "crawled_at": "2026-10-23T18:04:18.278529+00:00",
+  "files_found": 100,
+  "files": [
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164618.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164618.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:29:52.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164648.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164648.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:29:52.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164718.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164718.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:29:52.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164748.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164748.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:29:52.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164818.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164818.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:29:52.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164848.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164848.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:25.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164918.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164918.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:25.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164948.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164948.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:25.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165018.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165018.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:25.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165048.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165048.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:25.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165118.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165118.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:55.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165148.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165148.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:56.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165218.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165218.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:56.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165248.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165248.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:56.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165318.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165318.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:30:56.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165348.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165348.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:31:27.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165418.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165418.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:31:29.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165448.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165448.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:31:29.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165518.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165518.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:31:29.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165548.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165548.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:31:30.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165618.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165618.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:31:59.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165648.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165648.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:32:00.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165718.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165718.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:32:00.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165748.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165748.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:32:00.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165818.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165818.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:32:00.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165848.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165848.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:32:30.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165918.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165918.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:32:32.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165948.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311165948.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:32:32.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170018.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170018.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:32:32.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170048.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170048.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:32:32.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170118.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170118.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:04.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170148.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170148.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:05.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170218.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170218.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:05.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170248.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170248.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:05.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170318.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170318.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:06.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170348.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170348.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:33.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170418.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170418.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:34.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170448.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170448.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:35.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170518.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170518.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:35.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170548.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170548.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:33:37.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170618.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170618.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:08.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170648.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170648.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:09.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170718.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170718.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:09.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170748.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170748.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:09.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170818.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170818.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:09.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170848.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170848.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:37.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170918.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170918.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:39.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170948.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311170948.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:40.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171018.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171018.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:40.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171048.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171048.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:34:40.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171118.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171118.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:09.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171148.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171148.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:10.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171218.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171218.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:11.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171248.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171248.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:11.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171318.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171318.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:11.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171348.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171348.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:41.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171418.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171418.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:41.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171448.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171448.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:41.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171518.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171518.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:43.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171548.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171548.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:35:43.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171618.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171618.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:14.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171648.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171648.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:14.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171718.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171718.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:14.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171748.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171748.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:15.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171818.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171818.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:15.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171848.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171848.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:43.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171918.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171918.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:43.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171948.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311171948.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:44.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172018.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172018.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:44.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172048.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172048.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:36:44.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172118.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172118.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:14.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172148.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172148.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:15.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172218.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172218.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:16.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172248.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172248.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:16.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172318.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172318.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:17.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172348.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172348.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:47.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172418.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172418.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:47.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172448.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172448.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:47.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172518.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172518.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:48.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172548.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172548.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:37:49.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172618.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172618.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:16.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172648.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172648.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:17.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172718.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172718.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:17.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172748.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172748.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:18.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172818.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172818.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:18.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172848.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172848.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:46.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172918.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172918.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:46.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172948.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311172948.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:47.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173018.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173018.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:47.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173048.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173048.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:38:49.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173118.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173118.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:20.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173148.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173148.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:20.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173218.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173218.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:20.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173248.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173248.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:21.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173318.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173318.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:22.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173348.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173348.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:51.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173418.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173418.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:51.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173448.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173448.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:52.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173518.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173518.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:52.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    },
+    {
+      "relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173548.h5",
+      "url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311173548.h5",
+      "extension": ".h5",
+      "last_modified": "2020-11-18T20:39:54.000Z",
+      "size_bytes": 1047162640,
+      "size_hint": "998.7M"
+    }
+  ],
+  "dataset_id": "oedi-porotomo-brady"
+}

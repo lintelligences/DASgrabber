@@ -1,0 +1,52 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/7935235",
+  "zenodo_record_id": "7935235",
+  "doi": "10.5281/zenodo.7935235",
+  "title": "Shallow tremor list observed by Distributed acoustic sensing (DAS) and DAS data off Cape Muroto, southwest Japan",
+  "crawled_at": "2026-10-23T18:04:28.622539+00:00",
+  "files_found": 5,
+  "files": [
+    {
+      "relative_path": "tremor_hdf5.zip",
+      "url": "https://zenodo.org/api/records/7935235/files/tremor_hdf5.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2724960301,
+      "size_hint": "2598.72M",
+      "checksum": "md5:382a2a34c772df55021acff9d2754bae"
+    },
+    {
+      "relative_path": "DataSetS1.txt",
+      "url": "https://zenodo.org/api/records/7935235/files/DataSetS1.txt/content",
+      "extension": ".txt",
+      "size_bytes": 2114,
+      "size_hint": "2114B",
+      "checksum": "md5:428e82d9a2e3caee436f47704f0f5c3d"
+    },
+    {
+      "relative_path": "channelinfo.txt",
+      "url": "https://zenodo.org/api/records/7935235/files/channelinfo.txt/content",
+      "extension": ".txt",
+      "size_bytes": 1527,
+      "size_hint": "1527B",
+      "checksum": "md5:7f155626b26f7fe2fc3f1d152b539589"
+    },
+    {
+      "relative_path": "DataSetS3.txt",
+      "url": "https://zenodo.org/api/records/7935235/files/DataSetS3.txt/content",
+      "extension": ".txt",
+      "size_bytes": 1361,
+      "size_hint": "1361B",
+      "checksum": "md5:7054a539fdeb2b21aa065004ad63f7f1"
+    },
+    {
+      "relative_path": "DataSetS2.txt",
+      "url": "https://zenodo.org/api/records/7935235/files/DataSetS2.txt/content",
+      "extension": ".txt",
+      "size_bytes": 2114,
+      "size_hint": "2114B",
+      "checksum": "md5:05d77f4bae85f17f40cf66fa85b0f8d0"
+    }
+  ],
+  "dataset_id": "zenodo-muroto-japan"
+}

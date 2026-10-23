@@ -1,0 +1,154 @@
+{
+  "protocol": "http_directory",
+  "root_url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/",
+  "crawled_at": "2026-10-23T18:04:13.940954+00:00",
+  "directories_visited": 7,
+  "subdirectories_found": 8,
+  "files_found": 19,
+  "directories": [
+    "Geometry/",
+    "Geometry/OOI_RCA_DAS_channel_location/",
+    "Geometry/OOI_RCA_DAS_channel_location_with_depth/",
+    "Optasense/",
+    "Silixa/",
+    "Silixa/DTS/",
+    "Silixa/DTS/Fiber001on65km csv files/",
+    "Silixa/DTS/Fiber002on90km csv files/"
+  ],
+  "files": [
+    {
+      "relative_path": "changes.pdf",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/changes.pdf",
+      "extension": ".pdf",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "readme.pdf",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/readme.pdf",
+      "extension": ".pdf",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/RCA_RPL (Segment S1 and S5).xlsx",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/RCA_RPL%20%28Segment%20S1%20and%20S5%29.xlsx",
+      "extension": ".xlsx",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Optasense/OOI_RCA_OptaSense_DAS_intro.ipynb",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Optasense/OOI_RCA_OptaSense_DAS_intro.ipynb",
+      "extension": ".ipynb",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Optasense/Summary-UW-OOI-QuantX-DataAcquisition-October2021 - Issue 2.pdf",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Optasense/Summary-UW-OOI-QuantX-DataAcquisition-October2021%20-%20Issue%202.pdf",
+      "extension": ".pdf",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Silixa/OOIDASacqnotes.xlsx",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Silixa/OOIDASacqnotes.xlsx",
+      "extension": ".xlsx",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Silixa/OOIdelivery.pdf",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Silixa/OOIdelivery.pdf",
+      "extension": ".pdf",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Silixa/readTDMS.py",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Silixa/readTDMS.py",
+      "extension": ".py",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Silixa/TDMS_Adv_Read.m",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Silixa/TDMS_Adv_Read.m",
+      "extension": ".m",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location/get_north_edges.py",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location/get_north_edges.py",
+      "extension": ".py",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location/get_south_edges.py",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location/get_south_edges.py",
+      "extension": ".py",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location/interp_north_cable.py",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location/interp_north_cable.py",
+      "extension": ".py",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location/interp_south_cable.py",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location/interp_south_cable.py",
+      "extension": ".py",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location/north_cable_latlon.txt",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location/north_cable_latlon.txt",
+      "extension": ".txt",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location/north_DAS_latlon.txt",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location/north_DAS_latlon.txt",
+      "extension": ".txt",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location/south_cable_latlon.txt",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location/south_cable_latlon.txt",
+      "extension": ".txt",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location/south_DAS_latlon.txt",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location/south_DAS_latlon.txt",
+      "extension": ".txt",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location_with_depth/north_DAS_latlondepth.txt",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location_with_depth/north_DAS_latlondepth.txt",
+      "extension": ".txt",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "Geometry/OOI_RCA_DAS_channel_location_with_depth/south_DAS_latlondepth.txt",
+      "url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/Geometry/OOI_RCA_DAS_channel_location_with_depth/south_DAS_latlondepth.txt",
+      "extension": ".txt",
+      "last_modified": null,
+      "size_hint": null
+    }
+  ],
+  "dataset_id": "uw-ooi-rca-2021"
+}

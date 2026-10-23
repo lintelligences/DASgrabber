@@ -1,0 +1,152 @@
+{
+  "validated_at": "2026-10-23T18:13:01.135316+00:00",
+  "total_datasets": 12,
+  "passed": 12,
+  "failed": 0,
+  "results": {
+    "uw-ooi-rca-2021": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:04:14.110592+00:00",
+      "verified_relative_path": "changes.pdf",
+      "verified_url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/changes.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "content_range": "",
+      "bytes_downloaded": 48806,
+      "detected_signature": "PDF Document (%PDF)",
+      "sample_sha256_prefix": "defe641cb24b7c09"
+    },
+    "uw-ooi-rca-2024": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:04:15.941398+00:00",
+      "verified_relative_path": "dphi/155734.hdf5",
+      "verified_url": "http://piweb.ooirsn.uw.edu/das24/data/20240506/dphi/155734.hdf5",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "content_range": "",
+      "bytes_downloaded": 65536,
+      "detected_signature": "HDF5 (\\x89HDF)",
+      "sample_sha256_prefix": "c0d90ef3098a65da"
+    },
+    "uw-ooi-rca-2025-optodas": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:13:02.099838+00:00",
+      "verified_relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222344.hdf5",
+      "verified_url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222344.hdf5",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "content_range": "",
+      "bytes_downloaded": 65536,
+      "detected_signature": "HDF5 (\\x89HDF)",
+      "sample_sha256_prefix": "c72a280b2035fdd2"
+    },
+    "uw-ooi-rca-2025-multidas": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:13:03.586953+00:00",
+      "verified_relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021204_00000000000000000000.h5",
+      "verified_url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021204_00000000000000000000.h5",
+      "http_status": 200,
+      "content_type": "application/x-hdf5",
+      "content_range": "",
+      "bytes_downloaded": 65536,
+      "detected_signature": "HDF5 (\\x89HDF)",
+      "sample_sha256_prefix": "c4096e15769fdf39"
+    },
+    "oedi-porotomo-brady": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:04:18.567777+00:00",
+      "verified_relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164618.h5",
+      "verified_url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164618.h5",
+      "http_status": 206,
+      "content_type": "binary/octet-stream",
+      "content_range": "bytes 0-65535/1047162640",
+      "bytes_downloaded": 65536,
+      "detected_signature": "HDF5 (\\x89HDF)",
+      "sample_sha256_prefix": "1d5196886b506a7e"
+    },
+    "zenodo-muroto-japan": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:04:43.036831+00:00",
+      "verified_relative_path": "tremor_hdf5.zip",
+      "verified_url": "https://zenodo.org/api/records/7935235/files/tremor_hdf5.zip/content",
+      "http_status": 206,
+      "content_type": "application/octet-stream",
+      "content_range": "bytes 0-65535/2724960301",
+      "bytes_downloaded": 65536,
+      "detected_signature": "ZIP Archive (PK\\x03\\x04)",
+      "sample_sha256_prefix": "30b7a899d409b062"
+    },
+    "zenodo-tangshan-china": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:05:17.168564+00:00",
+      "verified_relative_path": "20200716141100.mat",
+      "verified_url": "https://zenodo.org/api/records/4554758/files/20200716141100.mat/content",
+      "http_status": 206,
+      "content_type": "application/octet-stream",
+      "content_range": "bytes 0-65535/15004123",
+      "bytes_downloaded": 65536,
+      "detected_signature": "MATLAB v5 MAT-file",
+      "sample_sha256_prefix": "cbdfd2a7b53c642a"
+    },
+    "zenodo-longriqu-tibetan-plateau": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:10:38.377242+00:00",
+      "verified_relative_path": "Data-origin.zip",
+      "verified_url": "https://zenodo.org/api/records/22282258/files/Data-origin.zip/content",
+      "http_status": 206,
+      "content_type": "application/octet-stream",
+      "content_range": "bytes 0-65535/25391242",
+      "bytes_downloaded": 65536,
+      "detected_signature": "ZIP Archive (PK\\x03\\x04)",
+      "sample_sha256_prefix": "b11c57eb77ca9e14"
+    },
+    "zenodo-svalbard-whale": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:10:40.078426+00:00",
+      "verified_relative_path": "20200627_192255_ch07001_to_ch08500_whale_raw_L310s.mat",
+      "verified_url": "https://zenodo.org/api/records/5823343/files/20200627_192255_ch07001_to_ch08500_whale_raw_L310s.mat/content",
+      "http_status": 206,
+      "content_type": "application/octet-stream",
+      "content_range": "bytes 0-65535/2401690976",
+      "bytes_downloaded": 65536,
+      "detected_signature": "MATLAB v5 MAT-file",
+      "sample_sha256_prefix": "cbc3498e5f34aabf"
+    },
+    "zenodo-zugspitze-alps": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:10:41.662967+00:00",
+      "verified_relative_path": "PPSD.zip",
+      "verified_url": "https://zenodo.org/api/records/19226183/files/PPSD.zip/content",
+      "http_status": 206,
+      "content_type": "application/octet-stream",
+      "content_range": "bytes 0-65535/2449382460",
+      "bytes_downloaded": 65536,
+      "detected_signature": "ZIP Archive (PK\\x03\\x04)",
+      "sample_sha256_prefix": "5977dd2408d6f8b5"
+    },
+    "zenodo-reykjanes-iceland": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:10:43.447112+00:00",
+      "verified_relative_path": "events_merged-all.csv",
+      "verified_url": "https://zenodo.org/api/records/6337788/files/events_merged-all.csv/content",
+      "http_status": 206,
+      "content_type": "text/plain; charset=utf-8",
+      "content_range": "bytes 0-65535/2188698",
+      "bytes_downloaded": 65536,
+      "detected_signature": "UTF-8 Text / CSV / Script",
+      "sample_sha256_prefix": "11c53b51623b379e"
+    },
+    "zenodo-rhonegletscher-alps": {
+      "validated": true,
+      "validated_at": "2026-10-23T18:06:54.878258+00:00",
+      "verified_relative_path": "denoised_data.zip",
+      "verified_url": "https://zenodo.org/api/records/13890738/files/denoised_data.zip/content",
+      "http_status": 206,
+      "content_type": "application/octet-stream",
+      "content_range": "bytes 0-65535/13438892669",
+      "bytes_downloaded": 65536,
+      "detected_signature": "ZIP Archive (PK\\x03\\x04)",
+      "sample_sha256_prefix": "849bb4e31349c574"
+    }
+  }
+}

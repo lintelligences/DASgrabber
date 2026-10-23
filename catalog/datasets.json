@@ -1,0 +1,533 @@
+{
+  "schema_version": "2.0.0",
+  "last_updated": "2026-10-23",
+  "policy": "Only datasets with locally validated, unauthenticated programmatic file downloads are included.",
+  "datasets": [
+    {
+      "id": "uw-ooi-rca-2021",
+      "title": "OOI Regional Cabled Array (RCA) RAPID Community DAS Experiment (2021)",
+      "institution": "University of Washington (UW FiberLab / OOI RCA)",
+      "region": "North America \u2014 Offshore Pacific City, Oregon, USA",
+      "deployment_type": "submarine_telecom_cable",
+      "temporal_coverage": {
+        "start": "2021-11-01",
+        "end": "2021-11-05"
+      },
+      "interrogators": [
+        "OptaSense",
+        "Silixa iDAS"
+      ],
+      "cable_length_km": 95.0,
+      "formats": [
+        "HDF5 (.h5)",
+        "PDF/CSV/MAT metadata"
+      ],
+      "estimated_size": "Multi-TB",
+      "access_protocol": "http_directory",
+      "auth_required": false,
+      "base_url": "http://piweb.ooirsn.uw.edu/das/",
+      "crawl_url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/",
+      "entrypoints": {
+        "root_index": "http://piweb.ooirsn.uw.edu/das/",
+        "raw_data": "http://piweb.ooirsn.uw.edu/das/data/",
+        "optasense_north": "http://piweb.ooirsn.uw.edu/das/data/Optasense/NorthCable/",
+        "optasense_south": "http://piweb.ooirsn.uw.edu/das/data/Optasense/SouthCable/",
+        "processed": "http://piweb.ooirsn.uw.edu/das/processed/",
+        "metadata_and_geometry": "http://piweb.ooirsn.uw.edu/das/processed/metadata/"
+      },
+      "companion_repos": [],
+      "doi": "10.58046/5J60-FJ89",
+      "notes": "Foundational 4-day community experiment led by Dr. William Wilcock on the North (~65 km) and South (~95 km) OOI submarine cables.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:04:14.110592+00:00",
+        "verified_relative_path": "changes.pdf",
+        "verified_url": "http://piweb.ooirsn.uw.edu/das/processed/metadata/changes.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "content_range": "",
+        "bytes_downloaded": 48806,
+        "detected_signature": "PDF Document (%PDF)",
+        "sample_sha256_prefix": "defe641cb24b7c09"
+      }
+    },
+    {
+      "id": "uw-ooi-rca-2024",
+      "title": "OOI Regional Cabled Array Multiplexed DAS Experiment (May 2024)",
+      "institution": "University of Washington (UW FiberLab)",
+      "region": "North America \u2014 Offshore Central Oregon, USA",
+      "deployment_type": "submarine_telecom_cable",
+      "temporal_coverage": {
+        "start": "2024-05-06",
+        "end": "2024-05-10"
+      },
+      "interrogators": [
+        "L-band Multiplexed DAS"
+      ],
+      "cable_length_km": 65.0,
+      "formats": [
+        "HDF5 (.h5)"
+      ],
+      "estimated_size": "Multi-TB",
+      "access_protocol": "http_directory",
+      "auth_required": false,
+      "base_url": "http://piweb.ooirsn.uw.edu/das24/data/",
+      "crawl_url": "http://piweb.ooirsn.uw.edu/das24/data/20240506/",
+      "entrypoints": {
+        "root_index": "http://piweb.ooirsn.uw.edu/das24/",
+        "data_index": "http://piweb.ooirsn.uw.edu/das24/data/",
+        "day_20240506": "http://piweb.ooirsn.uw.edu/das24/data/20240506/",
+        "day_20240507": "http://piweb.ooirsn.uw.edu/das24/data/20240507/",
+        "day_20240508": "http://piweb.ooirsn.uw.edu/das24/data/20240508/",
+        "day_20240509": "http://piweb.ooirsn.uw.edu/das24/data/20240509/",
+        "day_20240510": "http://piweb.ooirsn.uw.edu/das24/data/20240510/"
+      },
+      "companion_repos": [
+        "https://github.com/uwfiberlab/OOI_DAS_2024"
+      ],
+      "doi": null,
+      "notes": "4-day continuous dataset validating simultaneous optical telecommunications and L-band DAS on the active OOI RCA cable.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:04:15.941398+00:00",
+        "verified_relative_path": "dphi/155734.hdf5",
+        "verified_url": "http://piweb.ooirsn.uw.edu/das24/data/20240506/dphi/155734.hdf5",
+        "http_status": 200,
+        "content_type": "application/octet-stream",
+        "content_range": "",
+        "bytes_downloaded": 65536,
+        "detected_signature": "HDF5 (\\x89HDF)",
+        "sample_sha256_prefix": "c0d90ef3098a65da"
+      }
+    },
+    {
+      "id": "uw-ooi-rca-2025-optodas",
+      "title": "OOI Regional Cabled Array OptoDAS Experiment (Nov 2025 \u2013 Jan 2026)",
+      "institution": "University of Washington (UW FiberLab) & Alcatel Subsea Networks",
+      "region": "North America \u2014 Offshore Oregon, USA (OOI Southern Cable)",
+      "deployment_type": "submarine_telecom_cable",
+      "temporal_coverage": {
+        "start": "2025-11-01",
+        "end": "2026-01-31"
+      },
+      "interrogators": [
+        "Alcatel OptoDAS"
+      ],
+      "cable_length_km": 95.0,
+      "formats": [
+        "HDF5 (.h5)"
+      ],
+      "estimated_size": "1.2 TB",
+      "access_protocol": "http_directory",
+      "auth_required": false,
+      "base_url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/",
+      "crawl_url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/",
+      "entrypoints": {
+        "root_index": "http://piweb.ooirsn.uw.edu/das25/",
+        "optodas_data": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/"
+      },
+      "companion_repos": [
+        "https://github.com/uwfiberlab/OOI_DAS_2025"
+      ],
+      "doi": null,
+      "notes": "Collected on the OOI RCA southern cable using an Alcatel Subsea Networks OptoDAS interrogator.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:13:02.099838+00:00",
+        "verified_relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222344.hdf5",
+        "verified_url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222344.hdf5",
+        "http_status": 200,
+        "content_type": "application/octet-stream",
+        "content_range": "",
+        "bytes_downloaded": 65536,
+        "detected_signature": "HDF5 (\\x89HDF)",
+        "sample_sha256_prefix": "c72a280b2035fdd2"
+      }
+    },
+    {
+      "id": "uw-ooi-rca-2025-multidas",
+      "title": "OOI Regional Cabled Array Nokia Multi-Span DAS Experiment (Nov 2025 \u2013 Jan 2026)",
+      "institution": "University of Washington (UW FiberLab) & Nokia Bell Labs",
+      "region": "North America \u2014 Offshore Oregon, USA (OOI North & South Cables)",
+      "deployment_type": "submarine_telecom_cable",
+      "temporal_coverage": {
+        "start": "2025-11-01",
+        "end": "2026-01-31"
+      },
+      "interrogators": [
+        "Nokia Bell Labs Multi-Span DAS"
+      ],
+      "cable_length_km": 95.0,
+      "formats": [
+        "Binary (.bin / custom array + metadata)"
+      ],
+      "estimated_size": "3.9 TB",
+      "access_protocol": "http_directory",
+      "auth_required": false,
+      "base_url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/",
+      "crawl_url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/",
+      "entrypoints": {
+        "root_index": "http://piweb.ooirsn.uw.edu/das25/",
+        "multidas_data": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/"
+      },
+      "companion_repos": [
+        "https://github.com/uwfiberlab/OOI_DAS_2025"
+      ],
+      "doi": null,
+      "notes": "Multi-span DAS experiment across optical repeaters on the OOI RCA submarine cables.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:13:03.586953+00:00",
+        "verified_relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021204_00000000000000000000.h5",
+        "verified_url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021204_00000000000000000000.h5",
+        "http_status": 200,
+        "content_type": "application/x-hdf5",
+        "content_range": "",
+        "bytes_downloaded": 65536,
+        "detected_signature": "HDF5 (\\x89HDF)",
+        "sample_sha256_prefix": "c4096e15769fdf39"
+      }
+    },
+    {
+      "id": "oedi-porotomo-brady",
+      "title": "PoroTomo Natural Laboratory Horizontal & Vertical DAS (Brady Hot Springs, NV)",
+      "institution": "DOE Open Energy Data Initiative (OEDI) / UW-Madison / LBNL",
+      "region": "North America \u2014 Brady Hot Springs, Nevada, USA",
+      "deployment_type": "surface_trench_and_borehole",
+      "temporal_coverage": {
+        "start": "2016-03-10",
+        "end": "2016-03-25"
+      },
+      "interrogators": [
+        "Silixa iDAS"
+      ],
+      "cable_length_km": 8.7,
+      "formats": [
+        "HDF5 (.h5)",
+        "SEG-Y (.sgy)"
+      ],
+      "estimated_size": "25+ TB",
+      "access_protocol": "aws_s3_anonymous",
+      "auth_required": false,
+      "base_url": "https://nrel-pds-porotomo.s3.amazonaws.com/",
+      "s3_prefix": "DAS/H5/DASH/20160311/",
+      "entrypoints": {
+        "s3_https_endpoint": "https://nrel-pds-porotomo.s3.amazonaws.com/?list-type=2&prefix=DAS/H5/",
+        "s3_web_viewer": "https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo"
+      },
+      "companion_repos": [
+        "https://github.com/openEDI/documentation"
+      ],
+      "doi": "10.15121/1364021",
+      "notes": "8.7 km horizontal (DASH) and 0.4 km vertical borehole (DASV) fiber array. Directly downloadable over HTTPS from S3 without credentials.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:04:18.567777+00:00",
+        "verified_relative_path": "DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164618.h5",
+        "verified_url": "https://nrel-pds-porotomo.s3.amazonaws.com/DAS/H5/DASH/20160311/PoroTomo_iDAS16043_160311164618.h5",
+        "http_status": 206,
+        "content_type": "binary/octet-stream",
+        "content_range": "bytes 0-65535/1047162640",
+        "bytes_downloaded": 65536,
+        "detected_signature": "HDF5 (\\x89HDF)",
+        "sample_sha256_prefix": "1d5196886b506a7e"
+      }
+    },
+    {
+      "id": "zenodo-muroto-japan",
+      "title": "Cape Muroto Subsea Cable Shallow Tremor & Slow Slip DAS Dataset (Japan)",
+      "institution": "JAMSTEC / University of Tokyo / Kyoto University",
+      "region": "Asia-Pacific \u2014 Offshore Cape Muroto, Shikoku, Japan (Nankai Trough)",
+      "deployment_type": "submarine_cabled_observatory",
+      "temporal_coverage": {
+        "start": "2019-01-01",
+        "end": "2022-12-31"
+      },
+      "interrogators": [
+        "AP Sensing"
+      ],
+      "cable_length_km": 50.0,
+      "formats": [
+        "HDF5 (.zip/.h5)",
+        "TXT channel & catalog metadata"
+      ],
+      "estimated_size": "2.72 GB",
+      "access_protocol": "zenodo_api",
+      "auth_required": false,
+      "base_url": "https://zenodo.org/api/records/7935235",
+      "zenodo_record_id": "7935235",
+      "entrypoints": {
+        "zenodo_api": "https://zenodo.org/api/records/7935235",
+        "zenodo_web": "https://zenodo.org/records/7935235"
+      },
+      "companion_repos": [],
+      "doi": "10.5281/zenodo.7935235",
+      "notes": "Subduction zone shallow tectonic tremor HDF5 waveforms (`tremor_hdf5.zip`) and channel geometry (`channelinfo.txt`) off Cape Muroto.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:04:43.036831+00:00",
+        "verified_relative_path": "tremor_hdf5.zip",
+        "verified_url": "https://zenodo.org/api/records/7935235/files/tremor_hdf5.zip/content",
+        "http_status": 206,
+        "content_type": "application/octet-stream",
+        "content_range": "bytes 0-65535/2724960301",
+        "bytes_downloaded": 65536,
+        "detected_signature": "ZIP Archive (PK\\x03\\x04)",
+        "sample_sha256_prefix": "30b7a899d409b062"
+      }
+    },
+    {
+      "id": "zenodo-tangshan-china",
+      "title": "Tangshan Fault Zone Earthquake Monitoring DAS Dataset (Hebei, China)",
+      "institution": "Innovation Academy for Precision Measurement Science and Technology (CAS)",
+      "region": "Asia \u2014 Tangshan, Hebei Province, China",
+      "deployment_type": "urban_and_fault_telecom_fiber",
+      "temporal_coverage": {
+        "start": "2020-07-12",
+        "end": "2020-07-19"
+      },
+      "interrogators": [
+        "Custom Phase-OTDR / DAS"
+      ],
+      "cable_length_km": null,
+      "formats": [
+        "MATLAB (.mat)"
+      ],
+      "estimated_size": "45 MB",
+      "access_protocol": "zenodo_api",
+      "auth_required": false,
+      "base_url": "https://zenodo.org/api/records/4554758",
+      "zenodo_record_id": "4554758",
+      "entrypoints": {
+        "zenodo_api": "https://zenodo.org/api/records/4554758",
+        "zenodo_web": "https://zenodo.org/records/4554758"
+      },
+      "companion_repos": [],
+      "doi": "10.5281/zenodo.4554758",
+      "notes": "Direct MATLAB waveform files recording Tangshan earthquake aftershocks on distributed optical fiber.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:05:17.168564+00:00",
+        "verified_relative_path": "20200716141100.mat",
+        "verified_url": "https://zenodo.org/api/records/4554758/files/20200716141100.mat/content",
+        "http_status": 206,
+        "content_type": "application/octet-stream",
+        "content_range": "bytes 0-65535/15004123",
+        "bytes_downloaded": 65536,
+        "detected_signature": "MATLAB v5 MAT-file",
+        "sample_sha256_prefix": "cbdfd2a7b53c642a"
+      }
+    },
+    {
+      "id": "zenodo-longriqu-tibetan-plateau",
+      "title": "Longriqu Fault Earthquake DAS Observations (Eastern Tibetan Plateau, China)",
+      "institution": "Chinese Academy of Sciences / Earthquake Administration",
+      "region": "Asia \u2014 Longriqu Fault, Eastern Tibetan Plateau, Sichuan, China",
+      "deployment_type": "high_altitude_fault_fiber",
+      "temporal_coverage": {
+        "start": "2021-01-01",
+        "end": "2023-12-31"
+      },
+      "interrogators": [
+        "DAS Interrogator"
+      ],
+      "cable_length_km": null,
+      "formats": [
+        "ZIP / Waveform archive"
+      ],
+      "estimated_size": "25.4 MB",
+      "access_protocol": "zenodo_api",
+      "auth_required": false,
+      "base_url": "https://zenodo.org/api/records/22282258",
+      "zenodo_record_id": "22282258",
+      "entrypoints": {
+        "zenodo_api": "https://zenodo.org/api/records/22282258",
+        "zenodo_web": "https://zenodo.org/records/22282258"
+      },
+      "companion_repos": [],
+      "doi": "10.5281/zenodo.22282258",
+      "notes": "Earthquake DAS observations revealing near-surface fault structure on the eastern Tibetan Plateau.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:10:38.377242+00:00",
+        "verified_relative_path": "Data-origin.zip",
+        "verified_url": "https://zenodo.org/api/records/22282258/files/Data-origin.zip/content",
+        "http_status": 206,
+        "content_type": "application/octet-stream",
+        "content_range": "bytes 0-65535/25391242",
+        "bytes_downloaded": 65536,
+        "detected_signature": "ZIP Archive (PK\\x03\\x04)",
+        "sample_sha256_prefix": "b11c57eb77ca9e14"
+      }
+    },
+    {
+      "id": "zenodo-svalbard-whale",
+      "title": "DAS4Whale: Svalbard Arctic Subsea Cable DAS Dataset (Norway)",
+      "institution": "NTNU / NORSAR",
+      "region": "Europe / Arctic \u2014 Isfjorden, Svalbard, Norway",
+      "deployment_type": "arctic_submarine_telecom_cable",
+      "temporal_coverage": {
+        "start": "2020-06-27",
+        "end": "2020-07-16"
+      },
+      "interrogators": [
+        "Alcatel OptoDAS"
+      ],
+      "cable_length_km": 120.0,
+      "formats": [
+        "MATLAB (.mat)"
+      ],
+      "estimated_size": "13.5 GB",
+      "access_protocol": "zenodo_api",
+      "auth_required": false,
+      "base_url": "https://zenodo.org/api/records/5823343",
+      "zenodo_record_id": "5823343",
+      "entrypoints": {
+        "zenodo_api": "https://zenodo.org/api/records/5823343",
+        "zenodo_web": "https://zenodo.org/records/5823343"
+      },
+      "companion_repos": [],
+      "doi": "10.5281/zenodo.5823343",
+      "notes": "Raw multi-channel DAS strain recordings on an Arctic subsea telecommunication cable in Svalbard, Norway.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:10:40.078426+00:00",
+        "verified_relative_path": "20200627_192255_ch07001_to_ch08500_whale_raw_L310s.mat",
+        "verified_url": "https://zenodo.org/api/records/5823343/files/20200627_192255_ch07001_to_ch08500_whale_raw_L310s.mat/content",
+        "http_status": 206,
+        "content_type": "application/octet-stream",
+        "content_range": "bytes 0-65535/2401690976",
+        "bytes_downloaded": 65536,
+        "detected_signature": "MATLAB v5 MAT-file",
+        "sample_sha256_prefix": "cbc3498e5f34aabf"
+      }
+    },
+    {
+      "id": "zenodo-zugspitze-alps",
+      "title": "Mt. Zugspitze Alpine Permafrost DAS Dataset (German/Austrian Alps)",
+      "institution": "LMU Munich / ETH Z\u00fcrich / GFZ",
+      "region": "Europe \u2014 Mt. Zugspitze, Bavarian/Tyrolean Alps, Germany/Austria",
+      "deployment_type": "alpine_cryosphere_cable",
+      "temporal_coverage": {
+        "start": "2021-01-01",
+        "end": "2022-12-31"
+      },
+      "interrogators": [
+        "Silixa iDAS"
+      ],
+      "cable_length_km": 2.0,
+      "formats": [
+        "ZIP (.npz / HDF5 products)",
+        "Python scripts (.py)"
+      ],
+      "estimated_size": "4.9 GB",
+      "access_protocol": "zenodo_api",
+      "auth_required": false,
+      "base_url": "https://zenodo.org/api/records/19226183",
+      "zenodo_record_id": "19226183",
+      "entrypoints": {
+        "zenodo_api": "https://zenodo.org/api/records/19226183",
+        "zenodo_web": "https://zenodo.org/records/19226183"
+      },
+      "companion_repos": [],
+      "doi": "10.5281/zenodo.19226183",
+      "notes": "Alpine permafrost DAS data products, cross-correlations, PPSDs, and Python reader scripts.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:10:41.662967+00:00",
+        "verified_relative_path": "PPSD.zip",
+        "verified_url": "https://zenodo.org/api/records/19226183/files/PPSD.zip/content",
+        "http_status": 206,
+        "content_type": "application/octet-stream",
+        "content_range": "bytes 0-65535/2449382460",
+        "bytes_downloaded": 65536,
+        "detected_signature": "ZIP Archive (PK\\x03\\x04)",
+        "sample_sha256_prefix": "5977dd2408d6f8b5"
+      }
+    },
+    {
+      "id": "zenodo-reykjanes-iceland",
+      "title": "Thorbj\u00f6rn / Reykjanes Peninsula Volcanic Unrest DAS Dataset (Iceland)",
+      "institution": "GFZ Potsdam / University of Iceland / NORSAR",
+      "region": "Europe \u2014 Grindav\u00edk / Svartsengi / Thorbj\u00f6rn, Reykjanes Peninsula, Iceland",
+      "deployment_type": "volcanic_geothermal_fiber",
+      "temporal_coverage": {
+        "start": "2020-01-01",
+        "end": "2020-12-31"
+      },
+      "interrogators": [
+        "Silixa iDAS"
+      ],
+      "cable_length_km": 13.5,
+      "formats": [
+        "CSV / Event & Strain Attribute Catalog"
+      ],
+      "estimated_size": "2.2 MB",
+      "access_protocol": "zenodo_api",
+      "auth_required": false,
+      "base_url": "https://zenodo.org/api/records/6337788",
+      "zenodo_record_id": "6337788",
+      "entrypoints": {
+        "zenodo_api": "https://zenodo.org/api/records/6337788",
+        "zenodo_web": "https://zenodo.org/records/6337788"
+      },
+      "companion_repos": [],
+      "doi": "10.5281/zenodo.6337788",
+      "notes": "Horizontal strain DAS and seismic detections from the 2020 magma inflation unrest episode at Thorbj\u00f6rn, Reykjanes Peninsula, Iceland.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:10:43.447112+00:00",
+        "verified_relative_path": "events_merged-all.csv",
+        "verified_url": "https://zenodo.org/api/records/6337788/files/events_merged-all.csv/content",
+        "http_status": 206,
+        "content_type": "text/plain; charset=utf-8",
+        "content_range": "bytes 0-65535/2188698",
+        "bytes_downloaded": 65536,
+        "detected_signature": "UTF-8 Text / CSV / Script",
+        "sample_sha256_prefix": "11c53b51623b379e"
+      }
+    },
+    {
+      "id": "zenodo-rhonegletscher-alps",
+      "title": "Rhonegletscher Cryoseismological Glacier DAS Dataset (Swiss Alps)",
+      "institution": "ETH Z\u00fcrich",
+      "region": "Europe \u2014 Rhonegletscher, Valais, Swiss Alps, Switzerland",
+      "deployment_type": "glacier_surface_fiber",
+      "temporal_coverage": {
+        "start": "2020-07-01",
+        "end": "2020-08-31"
+      },
+      "interrogators": [
+        "Silixa iDAS"
+      ],
+      "cable_length_km": 9.0,
+      "formats": [
+        "ZIP (HDF5 / NumPy arrays)"
+      ],
+      "estimated_size": "13.5 GB (denoised + synthetic bundles)",
+      "access_protocol": "zenodo_api",
+      "auth_required": false,
+      "base_url": "https://zenodo.org/api/records/13890738",
+      "zenodo_record_id": "13890738",
+      "entrypoints": {
+        "zenodo_api": "https://zenodo.org/api/records/13890738",
+        "zenodo_web": "https://zenodo.org/records/13890738"
+      },
+      "companion_repos": [],
+      "doi": "10.5281/zenodo.13890738",
+      "notes": "Cryoseismological glacier icequake and tremor DAS recordings from Rhonegletscher, Swiss Alps.",
+      "validation": {
+        "validated": true,
+        "validated_at": "2026-10-23T18:06:54.878258+00:00",
+        "verified_relative_path": "denoised_data.zip",
+        "verified_url": "https://zenodo.org/api/records/13890738/files/denoised_data.zip/content",
+        "http_status": 206,
+        "content_type": "application/octet-stream",
+        "content_range": "bytes 0-65535/13438892669",
+        "bytes_downloaded": 65536,
+        "detected_signature": "ZIP Archive (PK\\x03\\x04)",
+        "sample_sha256_prefix": "849bb4e31349c574"
+      }
+    }
+  ]
+}

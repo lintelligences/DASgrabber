@@ -1,0 +1,4005 @@
+{
+  "protocol": "http_directory",
+  "root_url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/",
+  "crawled_at": "2026-10-23T18:13:01.905632+00:00",
+  "directories_visited": 3,
+  "subdirectories_found": 2,
+  "files_found": 570,
+  "directories": [
+    "south/",
+    "south/8Hz/"
+  ],
+  "files": [
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222344.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222344.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_222958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_222958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223008.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223008.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223018.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223018.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223028.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223028.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223038.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223038.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223048.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223048.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223058.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223058.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223108.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223108.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223118.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223118.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223128.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223128.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223138.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223138.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223148.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223148.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223158.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223158.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223208.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223208.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223218.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223218.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223228.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223228.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223238.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223238.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223248.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223248.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223258.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223258.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223308.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223308.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223318.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223318.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223328.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223328.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223338.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223338.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223348.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223348.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223358.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223358.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223408.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223408.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223418.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223418.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223428.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223428.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223438.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223438.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223448.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223448.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223458.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223458.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223508.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223508.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_223958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_223958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224008.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224008.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224018.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224018.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224028.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224028.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224038.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224038.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224048.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224048.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224058.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224058.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224108.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224108.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224118.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224118.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224128.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224128.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224138.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224138.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224148.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224148.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224158.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224158.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224208.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224208.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224218.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224218.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224228.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224228.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224238.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224238.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224248.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224248.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224258.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224258.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224308.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224308.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224318.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224318.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224328.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224328.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224338.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224338.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224348.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224348.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224358.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224358.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224408.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224408.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224418.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224418.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224428.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224428.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224438.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224438.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224448.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224448.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224458.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224458.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224508.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224508.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_224958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_224958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225008.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225008.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225018.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225018.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225028.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225028.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225038.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225038.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225048.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225048.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225058.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225058.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225108.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225108.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225118.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225118.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225128.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225128.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225138.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225138.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225148.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225148.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225158.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225158.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225208.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225208.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225218.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225218.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225228.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225228.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225238.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225238.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225248.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225248.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225258.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225258.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225308.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225308.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225318.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225318.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225328.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225328.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225338.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225338.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225348.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225348.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225358.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225358.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225408.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225408.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225418.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225418.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225428.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225428.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225438.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225438.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225448.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225448.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225458.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225458.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225508.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225508.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_225958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_225958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230008.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230008.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230018.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230018.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230028.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230028.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230038.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230038.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230048.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230048.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230058.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230058.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230108.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230108.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230118.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230118.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230128.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230128.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230138.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230138.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230148.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230148.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230158.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230158.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230208.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230208.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230218.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230218.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230228.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230228.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230238.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230238.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230248.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230248.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230258.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230258.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230308.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230308.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230318.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230318.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230328.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230328.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230338.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230338.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230348.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230348.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230358.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230358.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230408.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230408.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230418.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230418.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230428.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230428.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230438.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230438.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230448.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230448.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230458.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230458.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230508.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230508.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_230958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_230958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231008.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231008.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231018.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231018.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231028.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231028.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231038.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231038.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231048.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231048.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231058.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231058.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231108.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231108.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231118.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231118.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231128.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231128.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231138.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231138.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231148.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231148.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231158.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231158.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231208.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231208.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231218.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231218.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231228.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231228.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231238.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231238.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231248.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231248.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231258.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231258.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231308.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231308.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231318.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231318.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231328.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231328.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231338.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231338.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231348.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231348.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231358.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231358.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231408.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231408.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231418.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231418.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231428.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231428.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231438.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231438.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231448.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231448.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231458.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231458.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231508.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231508.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_231958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_231958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232008.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232008.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232018.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232018.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232028.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232028.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232038.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232038.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232048.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232048.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232058.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232058.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232108.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232108.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232118.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232118.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232128.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232128.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232138.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232138.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232148.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232148.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232158.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232158.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232208.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232208.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232218.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232218.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232228.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232228.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232238.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232238.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232248.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232248.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232258.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232258.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232308.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232308.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232318.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232318.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232328.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232328.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232338.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232338.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232348.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232348.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232358.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232358.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232408.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232408.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232418.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232418.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232428.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232428.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232438.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232438.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232448.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232448.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232458.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232458.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232508.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232508.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_232958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_232958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233008.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233008.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233018.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233018.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233028.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233028.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233038.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233038.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233048.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233048.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233058.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233058.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233108.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233108.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233118.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233118.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233128.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233128.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233138.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233138.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233148.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233148.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233158.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233158.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233208.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233208.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233218.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233218.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233228.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233228.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233238.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233238.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233248.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233248.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233258.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233258.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233308.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233308.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233318.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233318.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233328.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233328.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233338.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233338.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233348.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233348.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233358.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233358.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233408.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233408.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233418.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233418.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233428.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233428.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233438.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233438.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233448.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233448.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233458.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233458.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233508.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233508.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_233958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_233958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234008.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234008.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234018.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234018.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234028.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234028.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234038.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234038.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234048.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234048.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234058.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234058.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234108.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234108.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234118.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234118.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234128.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234128.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234138.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234138.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234148.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234148.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234158.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234158.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234208.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234208.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234218.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234218.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234228.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234228.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234238.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234238.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234248.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234248.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234258.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234258.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234308.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234308.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234318.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234318.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234328.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234328.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234338.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234338.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234348.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234348.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234358.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234358.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234408.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234408.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234418.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234418.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234428.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234428.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234438.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234438.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234448.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234448.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234458.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234458.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234508.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234508.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_234958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_234958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235008.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235008.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235018.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235018.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235028.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235028.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235038.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235038.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235048.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235048.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235058.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235058.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235108.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235108.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235118.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235118.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235128.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235128.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235138.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235138.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235148.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235148.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235158.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235158.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235208.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235208.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235218.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235218.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235228.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235228.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235238.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235238.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235248.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235248.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235258.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235258.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235308.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235308.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235318.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235318.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235328.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235328.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235338.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235338.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235348.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235348.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235358.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235358.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235408.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235408.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235418.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235418.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235428.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235428.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235438.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235438.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235448.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235448.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235458.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235458.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235508.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235508.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235518.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235518.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235528.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235528.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235538.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235538.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235548.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235548.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235558.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235558.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235608.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235608.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235618.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235618.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235628.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235628.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235638.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235638.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235648.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235648.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235658.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235658.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235708.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235708.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235718.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235718.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235728.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235728.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235738.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235738.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235748.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235748.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235758.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235758.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235808.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235808.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235818.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235818.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235828.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235828.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235838.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235838.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235848.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235848.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235858.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235858.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235908.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235908.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235918.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235918.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235928.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235928.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235938.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235938.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235948.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235948.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/UW_DAS_south_8Hz_20251113_235958.hdf5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/OptoDAS/2025/11/13/south/8Hz/UW_DAS_south_8Hz_20251113_235958.hdf5",
+      "extension": ".hdf5",
+      "last_modified": null,
+      "size_hint": null
+    }
+  ],
+  "dataset_id": "uw-ooi-rca-2025-optodas"
+}

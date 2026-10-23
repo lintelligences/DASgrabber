@@ -1,0 +1,52 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/4554758",
+  "zenodo_record_id": "4554758",
+  "doi": "10.5281/zenodo.4554758",
+  "title": "baofeng-apm/DATAforAGU: First release of data for Tangshan earthquake monitoring on distributed optical fiber sensing observation",
+  "crawled_at": "2026-10-23T18:04:58.088790+00:00",
+  "files_found": 5,
+  "files": [
+    {
+      "relative_path": "20200716141100.mat",
+      "url": "https://zenodo.org/api/records/4554758/files/20200716141100.mat/content",
+      "extension": ".mat",
+      "size_bytes": 15004123,
+      "size_hint": "14.31M",
+      "checksum": "md5:c54fe90f4fee48258ac195d8a80433b3"
+    },
+    {
+      "relative_path": "20200719022500.mat",
+      "url": "https://zenodo.org/api/records/4554758/files/20200719022500.mat/content",
+      "extension": ".mat",
+      "size_bytes": 15005410,
+      "size_hint": "14.31M",
+      "checksum": "md5:2ff6b48ae0367be6f83e6b1d88ac67a1"
+    },
+    {
+      "relative_path": "20200716171200.mat",
+      "url": "https://zenodo.org/api/records/4554758/files/20200716171200.mat/content",
+      "extension": ".mat",
+      "size_bytes": 15007144,
+      "size_hint": "14.31M",
+      "checksum": "md5:9e5acfbc4b7ff82a536eaaea4207b01f"
+    },
+    {
+      "relative_path": "20200720222100.mat",
+      "url": "https://zenodo.org/api/records/4554758/files/20200720222100.mat/content",
+      "extension": ".mat",
+      "size_bytes": 7503478,
+      "size_hint": "7.16M",
+      "checksum": "md5:0a86b07efadf1cbe6a716766fb6f3181"
+    },
+    {
+      "relative_path": "CH1000_det_event.mat",
+      "url": "https://zenodo.org/api/records/4554758/files/CH1000_det_event.mat/content",
+      "extension": ".mat",
+      "size_bytes": 164842,
+      "size_hint": "164842B",
+      "checksum": "md5:a666ce4b3bb38716d62c09e1396d34f2"
+    }
+  ],
+  "dataset_id": "zenodo-tangshan-china"
+}

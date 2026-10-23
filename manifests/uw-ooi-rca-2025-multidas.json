@@ -1,0 +1,3377 @@
+{
+  "protocol": "http_directory",
+  "root_url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/",
+  "crawled_at": "2026-10-23T18:13:03.384324+00:00",
+  "directories_visited": 5,
+  "subdirectories_found": 4,
+  "files_found": 480,
+  "directories": [
+    "north/",
+    "north/8Hz/",
+    "south/",
+    "south/8Hz/"
+  ],
+  "files": [
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021204_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021204_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021204_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021204_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021636_00000000000000000002.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_021636_00000000000000000002.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_022107_00000000000000000003.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_022107_00000000000000000003.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_022538_00000000000000000004.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_022538_00000000000000000004.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_023008_00000000000000000005.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_023008_00000000000000000005.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_023439_00000000000000000006.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_023439_00000000000000000006.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_023909_00000000000000000007.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_023909_00000000000000000007.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_024340_00000000000000000008.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_024340_00000000000000000008.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_024811_00000000000000000009.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_024811_00000000000000000009.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_025241_00000000000000000010.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_025241_00000000000000000010.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_025712_00000000000000000011.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_025712_00000000000000000011.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_030142_00000000000000000012.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_030142_00000000000000000012.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_030613_00000000000000000013.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_030613_00000000000000000013.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_031044_00000000000000000014.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_031044_00000000000000000014.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_031514_00000000000000000015.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_031514_00000000000000000015.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_031945_00000000000000000016.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_031945_00000000000000000016.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_032415_00000000000000000017.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_032415_00000000000000000017.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_032846_00000000000000000018.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_032846_00000000000000000018.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_033317_00000000000000000019.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_033317_00000000000000000019.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_033747_00000000000000000020.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_033747_00000000000000000020.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_034218_00000000000000000021.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_034218_00000000000000000021.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_034648_00000000000000000022.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_034648_00000000000000000022.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_035119_00000000000000000023.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_035119_00000000000000000023.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_035550_00000000000000000024.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_035550_00000000000000000024.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_040020_00000000000000000025.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_040020_00000000000000000025.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_040451_00000000000000000026.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_040451_00000000000000000026.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_040921_00000000000000000027.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_040921_00000000000000000027.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_041352_00000000000000000028.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_041352_00000000000000000028.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_041822_00000000000000000029.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_041822_00000000000000000029.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_042253_00000000000000000030.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_042253_00000000000000000030.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_042724_00000000000000000031.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_042724_00000000000000000031.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_043154_00000000000000000032.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_043154_00000000000000000032.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_043625_00000000000000000033.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_043625_00000000000000000033.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_044056_00000000000000000034.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_044056_00000000000000000034.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_044526_00000000000000000035.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_044526_00000000000000000035.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_044957_00000000000000000036.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_044957_00000000000000000036.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_045427_00000000000000000037.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_045427_00000000000000000037.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_045858_00000000000000000038.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_045858_00000000000000000038.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_050328_00000000000000000039.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_050328_00000000000000000039.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_050759_00000000000000000040.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_050759_00000000000000000040.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_051230_00000000000000000041.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_051230_00000000000000000041.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_051700_00000000000000000042.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_051700_00000000000000000042.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_052131_00000000000000000043.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_052131_00000000000000000043.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_052601_00000000000000000044.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_052601_00000000000000000044.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_053032_00000000000000000045.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_053032_00000000000000000045.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_053503_00000000000000000046.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_053503_00000000000000000046.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_053933_00000000000000000047.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_053933_00000000000000000047.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_054404_00000000000000000048.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_054404_00000000000000000048.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_054834_00000000000000000049.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_054834_00000000000000000049.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_055305_00000000000000000050.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_055305_00000000000000000050.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_055736_00000000000000000051.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_055736_00000000000000000051.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_060206_00000000000000000052.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_060206_00000000000000000052.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_060637_00000000000000000053.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_060637_00000000000000000053.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_061112_00000000000000000054.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_061112_00000000000000000054.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_061543_00000000000000000055.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_061543_00000000000000000055.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_062013_00000000000000000056.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_062013_00000000000000000056.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_062444_00000000000000000057.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_062444_00000000000000000057.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_062914_00000000000000000058.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_062914_00000000000000000058.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_063345_00000000000000000059.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_063345_00000000000000000059.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_063815_00000000000000000060.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_063815_00000000000000000060.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_064246_00000000000000000061.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_064246_00000000000000000061.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_064717_00000000000000000062.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_064717_00000000000000000062.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_065147_00000000000000000063.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_065147_00000000000000000063.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_065618_00000000000000000064.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_065618_00000000000000000064.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_070048_00000000000000000065.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_070048_00000000000000000065.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_070519_00000000000000000066.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_070519_00000000000000000066.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_070950_00000000000000000067.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_070950_00000000000000000067.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_071420_00000000000000000068.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_071420_00000000000000000068.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_071851_00000000000000000069.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_071851_00000000000000000069.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_072322_00000000000000000070.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_072322_00000000000000000070.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_072752_00000000000000000071.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_072752_00000000000000000071.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_073223_00000000000000000072.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_073223_00000000000000000072.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_073653_00000000000000000073.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_073653_00000000000000000073.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_074124_00000000000000000074.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_074124_00000000000000000074.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_074555_00000000000000000075.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_074555_00000000000000000075.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_075025_00000000000000000076.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_075025_00000000000000000076.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_075456_00000000000000000077.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_075456_00000000000000000077.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_075927_00000000000000000078.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_075927_00000000000000000078.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_080357_00000000000000000079.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_080357_00000000000000000079.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_080828_00000000000000000080.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_080828_00000000000000000080.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_081259_00000000000000000081.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_081259_00000000000000000081.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_081729_00000000000000000082.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_081729_00000000000000000082.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_082200_00000000000000000083.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_082200_00000000000000000083.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_082630_00000000000000000084.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_082630_00000000000000000084.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_083101_00000000000000000085.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_083101_00000000000000000085.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_083531_00000000000000000086.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_083531_00000000000000000086.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_084002_00000000000000000087.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_084002_00000000000000000087.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_084433_00000000000000000088.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_084433_00000000000000000088.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_084903_00000000000000000089.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_084903_00000000000000000089.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_085334_00000000000000000090.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_085334_00000000000000000090.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_085805_00000000000000000091.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_085805_00000000000000000091.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_090235_00000000000000000092.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_090235_00000000000000000092.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_090706_00000000000000000093.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_090706_00000000000000000093.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_091141_00000000000000000094.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_091141_00000000000000000094.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_091612_00000000000000000095.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_091612_00000000000000000095.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_092042_00000000000000000096.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_092042_00000000000000000096.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_092513_00000000000000000097.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_092513_00000000000000000097.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_092943_00000000000000000098.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_092943_00000000000000000098.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_093414_00000000000000000099.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_093414_00000000000000000099.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_093845_00000000000000000100.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_093845_00000000000000000100.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_094316_00000000000000000101.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_094316_00000000000000000101.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_094746_00000000000000000102.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_094746_00000000000000000102.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_095217_00000000000000000103.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_095217_00000000000000000103.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_095647_00000000000000000104.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_095647_00000000000000000104.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_100118_00000000000000000105.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_100118_00000000000000000105.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_100548_00000000000000000106.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_100548_00000000000000000106.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_101023_00000000000000000107.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_101023_00000000000000000107.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_101454_00000000000000000108.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_101454_00000000000000000108.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_101925_00000000000000000109.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_101925_00000000000000000109.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_102355_00000000000000000110.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_102355_00000000000000000110.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_102826_00000000000000000111.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_102826_00000000000000000111.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_103256_00000000000000000112.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_103256_00000000000000000112.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_103727_00000000000000000113.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_103727_00000000000000000113.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_104158_00000000000000000114.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_104158_00000000000000000114.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_104628_00000000000000000115.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_104628_00000000000000000115.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_105059_00000000000000000116.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_105059_00000000000000000116.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_105529_00000000000000000117.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_105529_00000000000000000117.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_110000_00000000000000000118.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_110000_00000000000000000118.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_110431_00000000000000000119.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_110431_00000000000000000119.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_110901_00000000000000000120.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_110901_00000000000000000120.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_111332_00000000000000000121.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_111332_00000000000000000121.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_111803_00000000000000000122.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_111803_00000000000000000122.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_112233_00000000000000000123.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_112233_00000000000000000123.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_112704_00000000000000000124.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_112704_00000000000000000124.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_113134_00000000000000000125.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_113134_00000000000000000125.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_113605_00000000000000000126.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_113605_00000000000000000126.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_114036_00000000000000000127.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_114036_00000000000000000127.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_114511_00000000000000000128.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_114511_00000000000000000128.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_114941_00000000000000000129.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_114941_00000000000000000129.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_115412_00000000000000000130.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_115412_00000000000000000130.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_115843_00000000000000000131.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_115843_00000000000000000131.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_120313_00000000000000000132.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_120313_00000000000000000132.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_120744_00000000000000000133.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_120744_00000000000000000133.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_121214_00000000000000000134.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_121214_00000000000000000134.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_121645_00000000000000000135.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_121645_00000000000000000135.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_122116_00000000000000000136.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_122116_00000000000000000136.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_122546_00000000000000000137.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_122546_00000000000000000137.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_123017_00000000000000000138.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_123017_00000000000000000138.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_123447_00000000000000000139.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_123447_00000000000000000139.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_123918_00000000000000000140.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_123918_00000000000000000140.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_124349_00000000000000000141.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_124349_00000000000000000141.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_124819_00000000000000000142.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_124819_00000000000000000142.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_125250_00000000000000000143.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_125250_00000000000000000143.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_125721_00000000000000000144.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_125721_00000000000000000144.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_130151_00000000000000000145.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_130151_00000000000000000145.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_130622_00000000000000000146.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_130622_00000000000000000146.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_131053_00000000000000000147.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_131053_00000000000000000147.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_131523_00000000000000000148.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_131523_00000000000000000148.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_131954_00000000000000000149.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_131954_00000000000000000149.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_132424_00000000000000000150.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_132424_00000000000000000150.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_132855_00000000000000000151.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_132855_00000000000000000151.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_133326_00000000000000000152.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_133326_00000000000000000152.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_133756_00000000000000000153.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_133756_00000000000000000153.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_134227_00000000000000000154.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_134227_00000000000000000154.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_134657_00000000000000000155.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_134657_00000000000000000155.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_135128_00000000000000000156.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_135128_00000000000000000156.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_135558_00000000000000000157.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_135558_00000000000000000157.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_140029_00000000000000000158.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_140029_00000000000000000158.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_140500_00000000000000000159.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_140500_00000000000000000159.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_140930_00000000000000000160.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_140930_00000000000000000160.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_141401_00000000000000000161.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_141401_00000000000000000161.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_141831_00000000000000000162.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_141831_00000000000000000162.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_142302_00000000000000000163.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_142302_00000000000000000163.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_142733_00000000000000000164.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_142733_00000000000000000164.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_143203_00000000000000000165.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_143203_00000000000000000165.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_143638_00000000000000000166.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_143638_00000000000000000166.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_144109_00000000000000000167.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_144109_00000000000000000167.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_144539_00000000000000000168.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_144539_00000000000000000168.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_145010_00000000000000000169.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_145010_00000000000000000169.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_145441_00000000000000000170.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_145441_00000000000000000170.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_145911_00000000000000000171.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_145911_00000000000000000171.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_150342_00000000000000000172.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_150342_00000000000000000172.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_150812_00000000000000000173.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_150812_00000000000000000173.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_151243_00000000000000000174.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_151243_00000000000000000174.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_151713_00000000000000000175.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_151713_00000000000000000175.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_152144_00000000000000000176.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_152144_00000000000000000176.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_152615_00000000000000000177.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_152615_00000000000000000177.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_153045_00000000000000000178.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_153045_00000000000000000178.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_153516_00000000000000000179.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_153516_00000000000000000179.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_153947_00000000000000000180.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_153947_00000000000000000180.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_154417_00000000000000000181.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_154417_00000000000000000181.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_154848_00000000000000000182.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_154848_00000000000000000182.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_160418_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_160418_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_161545_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_161545_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_162752_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_162752_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_162752_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_162752_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_164009_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_164009_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_165207_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_165207_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_170245_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_170245_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_170851_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_170851_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_171316_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_171316_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_182513_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_182513_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_182513_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_182513_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_183105_00000000000000000002.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_183105_00000000000000000002.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_183657_00000000000000000003.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_183657_00000000000000000003.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_184250_00000000000000000004.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_184250_00000000000000000004.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_184842_00000000000000000005.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_184842_00000000000000000005.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_185434_00000000000000000006.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_185434_00000000000000000006.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_190026_00000000000000000007.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_190026_00000000000000000007.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_190618_00000000000000000008.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_190618_00000000000000000008.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_191211_00000000000000000009.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_191211_00000000000000000009.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_192515_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_192515_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_192515_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_192515_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_193108_00000000000000000002.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_193108_00000000000000000002.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_193700_00000000000000000003.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_193700_00000000000000000003.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_194252_00000000000000000004.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_194252_00000000000000000004.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_194844_00000000000000000005.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_194844_00000000000000000005.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_195436_00000000000000000006.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_195436_00000000000000000006.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_200029_00000000000000000007.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_200029_00000000000000000007.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_200621_00000000000000000008.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_200621_00000000000000000008.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_201213_00000000000000000009.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_201213_00000000000000000009.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_201805_00000000000000000010.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_201805_00000000000000000010.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_202357_00000000000000000011.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_202357_00000000000000000011.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_202950_00000000000000000012.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_202950_00000000000000000012.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_203542_00000000000000000013.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_203542_00000000000000000013.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_204134_00000000000000000014.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_204134_00000000000000000014.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_204726_00000000000000000015.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_204726_00000000000000000015.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_205318_00000000000000000016.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_205318_00000000000000000016.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_205911_00000000000000000017.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_205911_00000000000000000017.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_210503_00000000000000000018.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_210503_00000000000000000018.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_211055_00000000000000000019.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_211055_00000000000000000019.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_211647_00000000000000000020.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_211647_00000000000000000020.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_212239_00000000000000000021.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_212239_00000000000000000021.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_212832_00000000000000000022.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_212832_00000000000000000022.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_213424_00000000000000000023.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_213424_00000000000000000023.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_214016_00000000000000000024.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_214016_00000000000000000024.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_214608_00000000000000000025.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_214608_00000000000000000025.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_215200_00000000000000000026.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_215200_00000000000000000026.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_215752_00000000000000000027.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_215752_00000000000000000027.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_220345_00000000000000000028.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_220345_00000000000000000028.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_220937_00000000000000000029.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_220937_00000000000000000029.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_221529_00000000000000000030.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_221529_00000000000000000030.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_222121_00000000000000000031.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_222121_00000000000000000031.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_230626_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_230626_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_230626_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_230626_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_231811_00000000000000000002.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_231811_00000000000000000002.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_232955_00000000000000000003.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_232955_00000000000000000003.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_234139_00000000000000000004.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_234139_00000000000000000004.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_235324_00000000000000000005.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/north/8Hz/downsampled_nokia_DAS_north_8Hz_20251105_235324_00000000000000000005.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_021204_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_021204_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_021204_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_021204_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_021636_00000000000000000002.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_021636_00000000000000000002.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_022107_00000000000000000003.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_022107_00000000000000000003.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_022538_00000000000000000004.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_022538_00000000000000000004.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_023008_00000000000000000005.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_023008_00000000000000000005.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_023439_00000000000000000006.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_023439_00000000000000000006.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_023909_00000000000000000007.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_023909_00000000000000000007.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_024340_00000000000000000008.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_024340_00000000000000000008.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_024811_00000000000000000009.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_024811_00000000000000000009.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_025241_00000000000000000010.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_025241_00000000000000000010.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_025712_00000000000000000011.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_025712_00000000000000000011.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_030142_00000000000000000012.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_030142_00000000000000000012.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_030613_00000000000000000013.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_030613_00000000000000000013.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_031044_00000000000000000014.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_031044_00000000000000000014.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_031514_00000000000000000015.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_031514_00000000000000000015.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_031945_00000000000000000016.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_031945_00000000000000000016.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_032415_00000000000000000017.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_032415_00000000000000000017.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_032846_00000000000000000018.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_032846_00000000000000000018.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_033317_00000000000000000019.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_033317_00000000000000000019.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_033747_00000000000000000020.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_033747_00000000000000000020.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_034218_00000000000000000021.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_034218_00000000000000000021.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_034648_00000000000000000022.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_034648_00000000000000000022.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_035119_00000000000000000023.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_035119_00000000000000000023.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_035550_00000000000000000024.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_035550_00000000000000000024.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_040020_00000000000000000025.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_040020_00000000000000000025.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_040451_00000000000000000026.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_040451_00000000000000000026.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_040921_00000000000000000027.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_040921_00000000000000000027.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_041352_00000000000000000028.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_041352_00000000000000000028.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_041822_00000000000000000029.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_041822_00000000000000000029.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_042253_00000000000000000030.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_042253_00000000000000000030.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_042724_00000000000000000031.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_042724_00000000000000000031.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_043154_00000000000000000032.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_043154_00000000000000000032.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_043625_00000000000000000033.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_043625_00000000000000000033.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_044056_00000000000000000034.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_044056_00000000000000000034.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_044526_00000000000000000035.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_044526_00000000000000000035.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_044957_00000000000000000036.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_044957_00000000000000000036.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_045427_00000000000000000037.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_045427_00000000000000000037.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_045858_00000000000000000038.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_045858_00000000000000000038.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_050328_00000000000000000039.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_050328_00000000000000000039.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_050759_00000000000000000040.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_050759_00000000000000000040.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_051230_00000000000000000041.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_051230_00000000000000000041.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_051700_00000000000000000042.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_051700_00000000000000000042.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_052131_00000000000000000043.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_052131_00000000000000000043.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_052601_00000000000000000044.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_052601_00000000000000000044.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_053032_00000000000000000045.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_053032_00000000000000000045.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_053503_00000000000000000046.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_053503_00000000000000000046.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_053933_00000000000000000047.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_053933_00000000000000000047.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_054404_00000000000000000048.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_054404_00000000000000000048.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_054834_00000000000000000049.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_054834_00000000000000000049.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_055305_00000000000000000050.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_055305_00000000000000000050.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_055736_00000000000000000051.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_055736_00000000000000000051.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_060206_00000000000000000052.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_060206_00000000000000000052.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_060637_00000000000000000053.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_060637_00000000000000000053.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_061112_00000000000000000054.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_061112_00000000000000000054.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_061543_00000000000000000055.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_061543_00000000000000000055.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_062013_00000000000000000056.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_062013_00000000000000000056.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_062444_00000000000000000057.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_062444_00000000000000000057.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_062914_00000000000000000058.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_062914_00000000000000000058.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_063345_00000000000000000059.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_063345_00000000000000000059.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_063815_00000000000000000060.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_063815_00000000000000000060.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_064246_00000000000000000061.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_064246_00000000000000000061.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_064717_00000000000000000062.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_064717_00000000000000000062.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_065147_00000000000000000063.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_065147_00000000000000000063.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_065618_00000000000000000064.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_065618_00000000000000000064.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_070048_00000000000000000065.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_070048_00000000000000000065.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_070519_00000000000000000066.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_070519_00000000000000000066.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_070950_00000000000000000067.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_070950_00000000000000000067.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_071420_00000000000000000068.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_071420_00000000000000000068.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_071851_00000000000000000069.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_071851_00000000000000000069.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_072322_00000000000000000070.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_072322_00000000000000000070.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_072752_00000000000000000071.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_072752_00000000000000000071.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_073223_00000000000000000072.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_073223_00000000000000000072.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_073653_00000000000000000073.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_073653_00000000000000000073.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_074124_00000000000000000074.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_074124_00000000000000000074.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_074555_00000000000000000075.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_074555_00000000000000000075.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_075025_00000000000000000076.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_075025_00000000000000000076.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_075456_00000000000000000077.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_075456_00000000000000000077.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_075927_00000000000000000078.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_075927_00000000000000000078.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_080357_00000000000000000079.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_080357_00000000000000000079.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_080828_00000000000000000080.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_080828_00000000000000000080.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_081259_00000000000000000081.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_081259_00000000000000000081.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_081729_00000000000000000082.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_081729_00000000000000000082.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_082200_00000000000000000083.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_082200_00000000000000000083.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_082630_00000000000000000084.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_082630_00000000000000000084.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_083101_00000000000000000085.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_083101_00000000000000000085.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_083531_00000000000000000086.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_083531_00000000000000000086.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_084002_00000000000000000087.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_084002_00000000000000000087.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_084433_00000000000000000088.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_084433_00000000000000000088.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_084903_00000000000000000089.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_084903_00000000000000000089.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_085334_00000000000000000090.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_085334_00000000000000000090.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_085805_00000000000000000091.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_085805_00000000000000000091.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_090235_00000000000000000092.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_090235_00000000000000000092.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_090706_00000000000000000093.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_090706_00000000000000000093.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_091141_00000000000000000094.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_091141_00000000000000000094.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_091612_00000000000000000095.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_091612_00000000000000000095.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_092042_00000000000000000096.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_092042_00000000000000000096.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_092513_00000000000000000097.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_092513_00000000000000000097.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_092943_00000000000000000098.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_092943_00000000000000000098.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_093414_00000000000000000099.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_093414_00000000000000000099.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_093845_00000000000000000100.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_093845_00000000000000000100.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_094316_00000000000000000101.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_094316_00000000000000000101.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_094746_00000000000000000102.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_094746_00000000000000000102.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_095217_00000000000000000103.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_095217_00000000000000000103.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_095647_00000000000000000104.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_095647_00000000000000000104.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_100118_00000000000000000105.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_100118_00000000000000000105.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_100548_00000000000000000106.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_100548_00000000000000000106.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_101023_00000000000000000107.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_101023_00000000000000000107.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_101454_00000000000000000108.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_101454_00000000000000000108.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_101925_00000000000000000109.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_101925_00000000000000000109.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_102355_00000000000000000110.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_102355_00000000000000000110.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_102826_00000000000000000111.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_102826_00000000000000000111.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_103256_00000000000000000112.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_103256_00000000000000000112.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_103727_00000000000000000113.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_103727_00000000000000000113.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_104158_00000000000000000114.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_104158_00000000000000000114.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_104628_00000000000000000115.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_104628_00000000000000000115.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_105059_00000000000000000116.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_105059_00000000000000000116.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_105529_00000000000000000117.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_105529_00000000000000000117.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_110000_00000000000000000118.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_110000_00000000000000000118.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_110431_00000000000000000119.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_110431_00000000000000000119.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_110901_00000000000000000120.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_110901_00000000000000000120.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_111332_00000000000000000121.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_111332_00000000000000000121.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_111803_00000000000000000122.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_111803_00000000000000000122.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_112233_00000000000000000123.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_112233_00000000000000000123.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_112704_00000000000000000124.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_112704_00000000000000000124.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_113134_00000000000000000125.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_113134_00000000000000000125.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_113605_00000000000000000126.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_113605_00000000000000000126.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_114036_00000000000000000127.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_114036_00000000000000000127.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_114511_00000000000000000128.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_114511_00000000000000000128.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_114941_00000000000000000129.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_114941_00000000000000000129.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_115412_00000000000000000130.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_115412_00000000000000000130.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_115843_00000000000000000131.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_115843_00000000000000000131.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_120313_00000000000000000132.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_120313_00000000000000000132.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_120744_00000000000000000133.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_120744_00000000000000000133.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_121214_00000000000000000134.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_121214_00000000000000000134.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_121645_00000000000000000135.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_121645_00000000000000000135.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_122116_00000000000000000136.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_122116_00000000000000000136.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_122546_00000000000000000137.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_122546_00000000000000000137.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_123017_00000000000000000138.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_123017_00000000000000000138.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_123447_00000000000000000139.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_123447_00000000000000000139.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_123918_00000000000000000140.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_123918_00000000000000000140.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_124349_00000000000000000141.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_124349_00000000000000000141.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_124819_00000000000000000142.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_124819_00000000000000000142.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_125250_00000000000000000143.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_125250_00000000000000000143.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_125721_00000000000000000144.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_125721_00000000000000000144.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_130151_00000000000000000145.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_130151_00000000000000000145.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_130622_00000000000000000146.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_130622_00000000000000000146.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_131053_00000000000000000147.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_131053_00000000000000000147.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_131523_00000000000000000148.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_131523_00000000000000000148.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_131954_00000000000000000149.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_131954_00000000000000000149.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_132424_00000000000000000150.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_132424_00000000000000000150.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_132855_00000000000000000151.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_132855_00000000000000000151.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_133326_00000000000000000152.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_133326_00000000000000000152.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_133756_00000000000000000153.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_133756_00000000000000000153.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_134227_00000000000000000154.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_134227_00000000000000000154.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_134657_00000000000000000155.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_134657_00000000000000000155.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_135128_00000000000000000156.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_135128_00000000000000000156.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_135558_00000000000000000157.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_135558_00000000000000000157.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_140029_00000000000000000158.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_140029_00000000000000000158.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_140500_00000000000000000159.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_140500_00000000000000000159.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_140930_00000000000000000160.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_140930_00000000000000000160.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_141401_00000000000000000161.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_141401_00000000000000000161.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_141831_00000000000000000162.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_141831_00000000000000000162.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_142302_00000000000000000163.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_142302_00000000000000000163.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_142733_00000000000000000164.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_142733_00000000000000000164.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_143203_00000000000000000165.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_143203_00000000000000000165.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_143638_00000000000000000166.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_143638_00000000000000000166.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_144109_00000000000000000167.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_144109_00000000000000000167.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_144539_00000000000000000168.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_144539_00000000000000000168.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_145010_00000000000000000169.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_145010_00000000000000000169.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_145441_00000000000000000170.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_145441_00000000000000000170.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_145911_00000000000000000171.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_145911_00000000000000000171.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_150342_00000000000000000172.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_150342_00000000000000000172.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_150812_00000000000000000173.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_150812_00000000000000000173.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_151243_00000000000000000174.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_151243_00000000000000000174.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_151713_00000000000000000175.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_151713_00000000000000000175.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_152144_00000000000000000176.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_152144_00000000000000000176.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_152615_00000000000000000177.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_152615_00000000000000000177.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_153045_00000000000000000178.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_153045_00000000000000000178.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_153516_00000000000000000179.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_153516_00000000000000000179.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_153947_00000000000000000180.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_153947_00000000000000000180.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_154417_00000000000000000181.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_154417_00000000000000000181.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_154848_00000000000000000182.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_154848_00000000000000000182.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_160418_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_160418_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_161545_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_161545_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_162752_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_162752_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_162752_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_162752_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_164009_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_164009_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_165207_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_165207_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_170245_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_170245_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_170851_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_170851_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_171316_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_171316_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_182513_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_182513_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_182513_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_182513_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_183105_00000000000000000002.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_183105_00000000000000000002.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_183657_00000000000000000003.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_183657_00000000000000000003.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_184250_00000000000000000004.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_184250_00000000000000000004.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_184842_00000000000000000005.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_184842_00000000000000000005.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_185434_00000000000000000006.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_185434_00000000000000000006.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_190026_00000000000000000007.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_190026_00000000000000000007.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_190618_00000000000000000008.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_190618_00000000000000000008.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_191211_00000000000000000009.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_191211_00000000000000000009.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_192515_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_192515_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_192515_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_192515_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_193108_00000000000000000002.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_193108_00000000000000000002.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_193700_00000000000000000003.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_193700_00000000000000000003.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_194252_00000000000000000004.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_194252_00000000000000000004.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_194844_00000000000000000005.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_194844_00000000000000000005.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_195436_00000000000000000006.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_195436_00000000000000000006.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_200029_00000000000000000007.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_200029_00000000000000000007.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_200621_00000000000000000008.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_200621_00000000000000000008.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_201213_00000000000000000009.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_201213_00000000000000000009.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_201805_00000000000000000010.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_201805_00000000000000000010.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_202357_00000000000000000011.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_202357_00000000000000000011.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_202950_00000000000000000012.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_202950_00000000000000000012.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_203542_00000000000000000013.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_203542_00000000000000000013.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_204134_00000000000000000014.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_204134_00000000000000000014.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_204726_00000000000000000015.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_204726_00000000000000000015.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_205318_00000000000000000016.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_205318_00000000000000000016.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_205911_00000000000000000017.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_205911_00000000000000000017.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_210503_00000000000000000018.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_210503_00000000000000000018.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_211055_00000000000000000019.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_211055_00000000000000000019.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_211647_00000000000000000020.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_211647_00000000000000000020.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_212239_00000000000000000021.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_212239_00000000000000000021.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_212832_00000000000000000022.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_212832_00000000000000000022.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_213424_00000000000000000023.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_213424_00000000000000000023.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_214016_00000000000000000024.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_214016_00000000000000000024.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_214608_00000000000000000025.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_214608_00000000000000000025.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_215200_00000000000000000026.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_215200_00000000000000000026.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_215752_00000000000000000027.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_215752_00000000000000000027.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_220345_00000000000000000028.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_220345_00000000000000000028.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_220937_00000000000000000029.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_220937_00000000000000000029.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_221529_00000000000000000030.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_221529_00000000000000000030.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_222121_00000000000000000031.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_222121_00000000000000000031.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_230626_00000000000000000000.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_230626_00000000000000000000.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_230626_00000000000000000001.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_230626_00000000000000000001.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_231811_00000000000000000002.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_231811_00000000000000000002.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_232955_00000000000000000003.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_232955_00000000000000000003.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_234139_00000000000000000004.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_234139_00000000000000000004.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    },
+    {
+      "relative_path": "south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_235324_00000000000000000005.h5",
+      "url": "http://piweb.ooirsn.uw.edu/das25/data/MultiDAS/2025/11/05/south/8Hz/downsampled_nokia_DAS_south_8Hz_20251105_235324_00000000000000000005.h5",
+      "extension": ".h5",
+      "last_modified": null,
+      "size_hint": null
+    }
+  ],
+  "dataset_id": "uw-ooi-rca-2025-multidas"
+}

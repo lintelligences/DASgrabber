@@ -1,0 +1,100 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/5823343",
+  "zenodo_record_id": "5823343",
+  "doi": "10.5281/zenodo.5823343",
+  "title": "DAS4Whale: Svalbard distributed acoustic sensing dataset for baleen whale monitoring",
+  "crawled_at": "2026-10-23T18:10:39.151079+00:00",
+  "files_found": 11,
+  "files": [
+    {
+      "relative_path": "20200627_192255_ch07001_to_ch08500_whale_raw_L310s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200627_192255_ch07001_to_ch08500_whale_raw_L310s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 2401690976,
+      "size_hint": "2290.43M",
+      "checksum": "md5:6cc75b5a6e853c3901e134b8188d9582"
+    },
+    {
+      "relative_path": "20200716_154302_ch21001_to_ch22000_whale_raw_L720s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200716_154302_ch21001_to_ch22000_whale_raw_L720s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 3719802920,
+      "size_hint": "3547.48M",
+      "checksum": "md5:68de1e550e89fdff5ba88559a757a75b"
+    },
+    {
+      "relative_path": "20200716_154302_ch20001_to_ch21000_whale_raw_L720s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200716_154302_ch20001_to_ch21000_whale_raw_L720s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 3719802920,
+      "size_hint": "3547.48M",
+      "checksum": "md5:9cfa283e5ccf64d8ce8342ed9f4f837d"
+    },
+    {
+      "relative_path": "20200627_052441_ch08751_to_ch10000_whale_raw_L160s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200627_052441_ch08751_to_ch10000_whale_raw_L160s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 1033292856,
+      "size_hint": "985.42M",
+      "checksum": "md5:41d7296eb2e0e1c8579b9de1d908aa35"
+    },
+    {
+      "relative_path": "20200627_052441_ch10001_to_ch15000_whale_raw_L160s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200627_052441_ch10001_to_ch15000_whale_raw_L160s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 4129952856,
+      "size_hint": "3938.63M",
+      "checksum": "md5:2fed871a06d387346e02d45054fbf1ae"
+    },
+    {
+      "relative_path": "20200627_052441_ch15001_to_ch20000_whale_raw_L160s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200627_052441_ch15001_to_ch20000_whale_raw_L160s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 4129952856,
+      "size_hint": "3938.63M",
+      "checksum": "md5:71a31726e0f1be3b868e2b7daa2eb74d"
+    },
+    {
+      "relative_path": "20200627_052441_ch20001_to_ch25000_whale_raw_L160s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200627_052441_ch20001_to_ch25000_whale_raw_L160s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 4129952856,
+      "size_hint": "3938.63M",
+      "checksum": "md5:02ff787b971e12e4d7035b5c113823ee"
+    },
+    {
+      "relative_path": "20200627_192255_ch05001_to_ch07000_whale_raw_L310s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200627_192255_ch05001_to_ch07000_whale_raw_L310s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 3201638976,
+      "size_hint": "3053.32M",
+      "checksum": "md5:b5863f2e0c0102cd57646072d6393e3d"
+    },
+    {
+      "relative_path": "20200716_154302_ch22001_to_ch23000_whale_raw_L720s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200716_154302_ch22001_to_ch23000_whale_raw_L720s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 3719802920,
+      "size_hint": "3547.48M",
+      "checksum": "md5:68a13dec2440663d646491aab1d5190b"
+    },
+    {
+      "relative_path": "20200716_154302_ch23001_to_ch24000_whale_raw_L720s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200716_154302_ch23001_to_ch24000_whale_raw_L720s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 3719802920,
+      "size_hint": "3547.48M",
+      "checksum": "md5:fc0027d7d6acda0f0cc53ac122df7edb"
+    },
+    {
+      "relative_path": "20200716_154302_ch24001_to_ch25000_whale_raw_L720s.mat",
+      "url": "https://zenodo.org/api/records/5823343/files/20200716_154302_ch24001_to_ch25000_whale_raw_L720s.mat/content",
+      "extension": ".mat",
+      "size_bytes": 3719802920,
+      "size_hint": "3547.48M",
+      "checksum": "md5:e111af456fd97cec1780b5d2440d5eff"
+    }
+  ],
+  "dataset_id": "zenodo-svalbard-whale"
+}

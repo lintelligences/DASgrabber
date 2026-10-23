@@ -1,0 +1,20 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/6337788",
+  "zenodo_record_id": "6337788",
+  "doi": "10.5281/zenodo.6337788",
+  "title": "Combining Horizontal Strain DAS and Local Seismic Stations in a Full Waveform Attribute Stacking Detector/Locator Algorithm: Verification Test for the Thorbj\u00f6rn, Iceland, 2020 Unrest Episode",
+  "crawled_at": "2026-10-23T18:10:42.466017+00:00",
+  "files_found": 1,
+  "files": [
+    {
+      "relative_path": "events_merged-all.csv",
+      "url": "https://zenodo.org/api/records/6337788/files/events_merged-all.csv/content",
+      "extension": ".csv",
+      "size_bytes": 2188698,
+      "size_hint": "2.09M",
+      "checksum": "md5:a776fec637eaf4cf54b574162da6300a"
+    }
+  ],
+  "dataset_id": "zenodo-reykjanes-iceland"
+}

@@ -1,0 +1,28 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/13890738",
+  "zenodo_record_id": "13890738",
+  "doi": "10.5281/zenodo.13890738",
+  "title": "Denoised data for the manuscript \"Self-Supervised Coherence-Based Denoising on Cryoseismological Distributed Acoustic Sensing Data\"",
+  "crawled_at": "2026-10-23T18:06:48.048448+00:00",
+  "files_found": 2,
+  "files": [
+    {
+      "relative_path": "denoised_data.zip",
+      "url": "https://zenodo.org/api/records/13890738/files/denoised_data.zip/content",
+      "extension": ".zip",
+      "size_bytes": 13438892669,
+      "size_hint": "12816.33M",
+      "checksum": "md5:ad3e0598ce9174813b0b835aa7b26f53"
+    },
+    {
+      "relative_path": "denoised_data_synthetic.zip",
+      "url": "https://zenodo.org/api/records/13890738/files/denoised_data_synthetic.zip/content",
+      "extension": ".zip",
+      "size_bytes": 45052770,
+      "size_hint": "42.97M",
+      "checksum": "md5:986caad85f495043f53bfa9634104214"
+    }
+  ],
+  "dataset_id": "zenodo-rhonegletscher-alps"
+}

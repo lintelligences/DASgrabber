@@ -1,0 +1,65 @@
+# =============================================================================
+# CRITICAL RULE: NEVER COMMIT RAW OR PROCESSED DAS / SEISMIC WAVEFORM DATA
+# =============================================================================
+
+# Local data download & cache directories
+data/
+downloads/
+raw/
+processed/
+cache/
+scratch/
+*.data/
+
+# Scientific & waveform file formats
+*.h5
+*.hdf5
+*.he5
+*.nc
+*.nc4
+*.tdms
+*.tdms_index
+*.segy
+*.sgy
+*.su
+*.mseed
+*.miniseed
+*.seed
+*.sac
+*.mat
+*.npy
+*.npz
+*.bin
+*.dat
+*.raw
+*.zarr/
+*.tiledb/
+*.parquet
+*.feather
+*.arrow
+
+# Archives and compressed bundles
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.tar.xz
+*.txz
+*.zip
+*.7z
+*.gz
+*.bz2
+*.xz
+*.zst
+
+# Python / OS / IDE artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.DS_Store
+*.log

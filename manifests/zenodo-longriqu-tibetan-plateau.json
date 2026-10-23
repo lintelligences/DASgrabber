@@ -1,0 +1,20 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/22282258",
+  "zenodo_record_id": "22282258",
+  "doi": "10.5281/zenodo.22282258",
+  "title": "Near-Surface Structure of the Longriqu Fault Revealed by Distributed Acoustic Sensing Observations of Earthquakes",
+  "crawled_at": "2026-10-23T18:10:37.383825+00:00",
+  "files_found": 1,
+  "files": [
+    {
+      "relative_path": "Data-origin.zip",
+      "url": "https://zenodo.org/api/records/22282258/files/Data-origin.zip/content",
+      "extension": ".zip",
+      "size_bytes": 25391242,
+      "size_hint": "24.21M",
+      "checksum": "md5:8422fcf27678f6d37461e5a4dfb3b609"
+    }
+  ],
+  "dataset_id": "zenodo-longriqu-tibetan-plateau"
+}
