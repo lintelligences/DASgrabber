@@ -294,10 +294,15 @@ def convert_mat_v5_to_optodas_h5(in_path: Path, out_path: Path, chunk_samples: i
         if isinstance(raw_alcatel, dict):
             write_h5_group_recursively(h5f, raw_alcatel)
 
+        if "/ fileVersion" in h5f or "fileVersion" in h5f:
+            del h5f["fileVersion"]
+        h5f.create_dataset("fileVersion", data=np.int32(8))
+
         hdr = h5f.require_group("header")
         dt = float(meta_vars.get("info_sample_interval_s", 1.0 / 645.16))
         dx = float(meta_vars.get("info_SSI_m", 4.08))
         gl = float(meta_vars.get("info_GL_m", 8.16))
+        t0 = float(hdr["time"][()]) if "time" in hdr else 0.0
 
         for k, v in [
             ("dt", np.float64(dt)),
@@ -305,11 +310,36 @@ def convert_mat_v5_to_optodas_h5(in_path: Path, out_path: Path, chunk_samples: i
             ("gaugeLength", np.float64(gl)),
             ("dataScale", np.float64(1.0)),
             ("sensitivities", np.ones((1,), dtype=np.float64)),
+            ("sensitivityUnits", np.array([b"strain"], dtype="S")),
+            ("sensitivityUnit", np.bytes_("strain")),
+            ("unit", np.bytes_("strain")),
             ("spatialUnwrRange", np.float64(0.0)),
+            ("dimensionNames", np.array([b"time", b"distance"], dtype="S")),
+            ("dimensionUnits", np.array([b"s", b"m"], dtype="S")),
+            ("dimensionSizes", np.array([n_samples, n_channels], dtype=np.int64)),
+            ("name", np.bytes_(in_path.stem)),
         ]:
             if k in hdr:
                 del hdr[k]
             hdr.create_dataset(k, data=v)
+
+        dim_ranges = hdr.require_group("dimensionRanges")
+        for d_idx, (d_name, d_unit, d_size, d_scale, d_min) in enumerate([
+            (b"time", b"s", n_samples, dt, t0),
+            (b"distance", b"m", n_channels, dx, 0.0),
+        ]):
+            d_grp = dim_ranges.require_group(f"dimension{d_idx}")
+            for dk, dv in [
+                ("name", np.bytes_(d_name)),
+                ("unit", np.bytes_(d_unit)),
+                ("size", np.int64(d_size)),
+                ("unitScale", np.float64(d_scale)),
+                ("min", np.float64(d_min)),
+                ("max", np.float64(d_min + max(0, d_size - 1) * d_scale)),
+            ]:
+                if dk in d_grp:
+                    del d_grp[dk]
+                d_grp.create_dataset(dk, data=dv)
 
         if "x1_relative_channel" in meta_vars:
             ch_arr = np.asarray(meta_vars["x1_relative_channel"], dtype=np.int32).ravel()
@@ -394,12 +424,21 @@ def inspect_foreign_hdf5(in_path: Path) -> Dict[str, Any]:
                         summary["primary_2d_dtype"] = str(obj.dtype)
 
         f.visititems(visitor)
-        if "/data" in summary["datasets"] and "/header/dt" in summary["datasets"]:
+        if (
+            "/data" in summary["datasets"]
+            and "/header/dt" in summary["datasets"]
+            and "/header/dimensionNames" in summary["datasets"]
+            and "/header/dimensionSizes" in summary["datasets"]
+        ):
             summary["is_native_optodas"] = True
             if summary["primary_2d_path"] is None:
                 summary["primary_2d_path"] = "/data"
                 summary["primary_2d_shape"] = summary["datasets"]["/data"]["shape"]
                 summary["primary_2d_dtype"] = summary["datasets"]["/data"]["dtype"]
+        elif summary["primary_2d_path"] is None and "/data" in summary["datasets"]:
+            summary["primary_2d_path"] = "/data"
+            summary["primary_2d_shape"] = summary["datasets"]["/data"]["shape"]
+            summary["primary_2d_dtype"] = summary["datasets"]["/data"]["dtype"]
 
     return summary
 
@@ -413,12 +452,17 @@ def write_alcatel_metadata_groups(
     start_epoch: float,
     data_scale: float,
     sensitivity: float,
+    n_samples: int,
     n_channels: int,
     n_eff: float,
     zeta: float,
     wavelength_m: float,
     roi_dec: int,
 ) -> None:
+    if "fileVersion" in dst_h5:
+        del dst_h5["fileVersion"]
+    dst_h5.create_dataset("fileVersion", data=np.int32(8))
+
     hdr = dst_h5.require_group("header")
     for k, v in [
         ("dt", np.float64(dt)),
@@ -427,13 +471,39 @@ def write_alcatel_metadata_groups(
         ("time", np.float64(start_epoch)),
         ("dataScale", np.float64(data_scale)),
         ("sensitivities", np.array([sensitivity], dtype=np.float64)),
+        ("sensitivityUnits", np.array([b"rad/m"], dtype="S")),
+        ("sensitivityUnit", np.bytes_("rad/m")),
+        ("unit", np.bytes_("rad")),
         ("spatialUnwrRange", np.float64(2.0 * math.pi)),
         ("channels", np.arange(n_channels, dtype=np.int32)),
         ("dataType", np.int32(3)),
+        ("dimensionNames", np.array([b"time", b"distance"], dtype="S")),
+        ("dimensionUnits", np.array([b"s", b"m"], dtype="S")),
+        ("dimensionSizes", np.array([n_samples, n_channels], dtype=np.int64)),
+        ("name", np.bytes_(in_path.stem)),
+        ("exp", np.bytes_(in_path.stem)),
     ]:
         if k in hdr:
             del hdr[k]
         hdr.create_dataset(k, data=v)
+
+    dim_ranges = hdr.require_group("dimensionRanges")
+    for d_idx, (d_name, d_unit, d_size, d_scale, d_min) in enumerate([
+        (b"time", b"s", n_samples, dt, start_epoch),
+        (b"distance", b"m", n_channels, dx, 0.0),
+    ]):
+        d_grp = dim_ranges.require_group(f"dimension{d_idx}")
+        for dk, dv in [
+            ("name", np.bytes_(d_name)),
+            ("unit", np.bytes_(d_unit)),
+            ("size", np.int64(d_size)),
+            ("unitScale", np.float64(d_scale)),
+            ("min", np.float64(d_min)),
+            ("max", np.float64(d_min + max(0, d_size - 1) * d_scale)),
+        ]:
+            if dk in d_grp:
+                del d_grp[dk]
+            d_grp.create_dataset(dk, data=dv)
 
     cable = dst_h5.require_group("cableSpec")
     for k, v in [
@@ -571,7 +641,7 @@ def convert_foreign_hdf5_to_optodas(
         with h5py.File(in_path, "r+") as h5f:
             write_alcatel_metadata_groups(
                 h5f, in_path, dt, dx, gauge_length, start_epoch,
-                data_scale, sensitivity, n_channels, n_eff, zeta, wavelength_m, roi_dec,
+                data_scale, sensitivity, n_samples, n_channels, n_eff, zeta, wavelength_m, roi_dec,
             )
             if "/data" not in h5f and src_2d_path in h5f:
                 h5f["/data"] = h5f[src_2d_path]  # Instant HDF5 hard link (0 bytes copied!)
@@ -584,7 +654,7 @@ def convert_foreign_hdf5_to_optodas(
         with h5py.File(out_path, "w") as dst_h5:
             write_alcatel_metadata_groups(
                 dst_h5, in_path, dt, dx, gauge_length, start_epoch,
-                data_scale, sensitivity, n_channels, n_eff, zeta, wavelength_m, roi_dec,
+                data_scale, sensitivity, n_samples, n_channels, n_eff, zeta, wavelength_m, roi_dec,
             )
             dst_h5["/data"] = h5py.ExternalLink(rel_target, src_2d_path)
         return "linked"
@@ -595,13 +665,13 @@ def convert_foreign_hdf5_to_optodas(
         src_dset = src_h5[src_2d_path]
         write_alcatel_metadata_groups(
             dst_h5, in_path, dt, dx, gauge_length, start_epoch,
-            data_scale, sensitivity, n_channels, n_eff, zeta, wavelength_m, roi_dec,
+            data_scale, sensitivity, n_samples, n_channels, n_eff, zeta, wavelength_m, roi_dec,
         )
         orig_grp = dst_h5.create_group("vendorOriginal")
         for ak, av in src_h5.attrs.items():
             orig_grp.attrs[ak] = av
         for top_key in src_h5.keys():
-            if f"/{top_key}" != src_2d_path:
+            if f"/{top_key}" != src_2d_path and top_key not in ("header", "cableSpec", "demodSpec", "fileVersion", "vendorOriginal", "data"):
                 src_h5.copy(top_key, orig_grp, name=top_key)
 
         dst_data = dst_h5.create_dataset(
