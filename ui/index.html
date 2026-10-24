@@ -39,14 +39,14 @@
     header {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: center;
       border-bottom: 1px solid var(--border);
       padding-bottom: 10px;
       margin-bottom: 18px;
       gap: 12px;
       flex-wrap: wrap;
     }
-    h1 { font-size: 15px; margin: 0; font-weight: 600; }
+    h1 { font-size: 15px; margin: 0 0 4px 0; font-weight: 600; }
     h2 { font-size: 13px; margin: 20px 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
     .meta { color: var(--muted); font-size: 12px; }
     .table-wrap { overflow-x: auto; border: 1px solid var(--border); }
@@ -94,7 +94,13 @@
   <header>
     <div>
       <h1>DAS Dataset Download &amp; OptoDAS Conversion Manager</h1>
-      <div class="meta">Target directory (git-ignored): <span id="dest-root">downloads/</span></div>
+      <div class="controls" style="margin:4px 0 0 0">
+        <label class="meta">Target directory (git-ignored):
+          <input type="text" id="dest-root-input" value="downloads/" size="42">
+        </label>
+        <button type="button" id="btn-set-dest">Set Target Dir</button>
+        <button type="button" id="btn-convert-all">Convert All in Target Dir</button>
+      </div>
     </div>
     <div class="controls" style="margin:0">
       <label class="meta">HDF5 Convert Mode:
@@ -184,6 +190,7 @@
   </section>
 
   <script>
+    const API_BASE = window.location.protocol === "file:" ? "http://127.0.0.1:8765" : "";
     let currentDatasetId = null;
     let pollTimer = null;
 
@@ -200,51 +207,105 @@
       return d.innerHTML;
     }
 
-    async function fetchCatalog() {
-      const res = await fetch("/api/catalog");
-      const data = await res.json();
-      document.getElementById("dest-root").textContent = data.dest_root || "downloads/";
-      const tbody = document.getElementById("catalog-body");
+    function getTargetDir() {
+      return document.getElementById("dest-root-input").value.trim();
+    }
 
-      if (!data.datasets || data.datasets.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="8" class="meta">No datasets in catalog.</td></tr>';
-        return;
+    async function apiJson(path, options) {
+      let res;
+      try {
+        res = await fetch(API_BASE + path, options);
+      } catch (err) {
+        throw new Error("Cannot reach local server at http://127.0.0.1:8765. Run: python3 scripts/server.py --port 8765");
       }
+      const text = await res.text();
+      let data = {};
+      try {
+        data = text ? JSON.parse(text) : {};
+      } catch (_) {
+        if (res.status === 404) {
+          throw new Error("Server endpoint not found (404). Please restart `python3 scripts/server.py --port 8765` to load the latest endpoints.");
+        }
+        throw new Error(`HTTP ${res.status}: ${text.slice(0, 120)}`);
+      }
+      if (!res.ok) {
+        throw new Error(data.error || `HTTP ${res.status}`);
+      }
+      return data;
+    }
 
-      tbody.innerHTML = data.datasets.map(ds => {
-        const val = ds.validation || {};
-        const vText = val.validated
-          ? `<span class="status-ok">PASS (${esc(val.detected_signature || "OK")})</span>`
-          : `<span class="status-err">UNVERIFIED</span>`;
-        const localText = ds.local_files_count > 0
-          ? `${ds.local_files_count} (${fmtBytes(ds.local_bytes)})`
-          : "0";
-        const activeCls = ds.id === currentDatasetId ? "active" : "";
-        const canConvert = ds.local_files_count > 0 ? "" : "disabled";
-        return `
-          <tr class="${activeCls}" data-id="${esc(ds.id)}">
-            <td><strong>${esc(ds.id)}</strong></td>
-            <td class="wrap-cell">${esc(ds.region)}</td>
-            <td>${esc(ds.access_protocol)}</td>
-            <td>${esc(ds.estimated_size)}</td>
-            <td>${ds.manifest_files_count}</td>
-            <td>${esc(localText)}</td>
-            <td>${vText}</td>
-            <td>
-              <button type="button" onclick="selectDataset('${esc(ds.id)}')">Inspect</button>
-              <button type="button" ${canConvert} onclick="convertDataset('${esc(ds.id)}')">Convert Data</button>
-            </td>
-          </tr>
-        `;
-      }).join("");
+    async function fetchCatalog() {
+      const tbody = document.getElementById("catalog-body");
+      try {
+        const data = await apiJson("/api/catalog");
+        const input = document.getElementById("dest-root-input");
+        if (data.dest_root && (!input.dataset.userEdited)) {
+          input.value = data.dest_root;
+        }
+
+        if (!data.datasets || data.datasets.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="8" class="meta">No datasets in catalog.</td></tr>';
+          return;
+        }
+
+        tbody.innerHTML = data.datasets.map(ds => {
+          const val = ds.validation || {};
+          const vText = val.validated
+            ? `<span class="status-ok">PASS (${esc(val.detected_signature || "OK")})</span>`
+            : `<span class="status-err">UNVERIFIED</span>`;
+          const localText = ds.local_files_count > 0
+            ? `${ds.local_files_count} (${fmtBytes(ds.local_bytes)})`
+            : "0";
+          const activeCls = ds.id === currentDatasetId ? "active" : "";
+          return `
+            <tr class="${activeCls}" data-id="${esc(ds.id)}">
+              <td><strong>${esc(ds.id)}</strong></td>
+              <td class="wrap-cell">${esc(ds.region)}</td>
+              <td>${esc(ds.access_protocol)}</td>
+              <td>${esc(ds.estimated_size)}</td>
+              <td>${ds.manifest_files_count}</td>
+              <td>${esc(localText)}</td>
+              <td>${vText}</td>
+              <td>
+                <button type="button" onclick="selectDataset('${esc(ds.id)}')">Inspect</button>
+                <button type="button" onclick="downloadDatasetRow('${esc(ds.id)}')">Download</button>
+                <button type="button" onclick="convertDataset('${esc(ds.id)}')">Convert Data</button>
+              </td>
+            </tr>
+          `;
+        }).join("");
+      } catch (err) {
+        tbody.innerHTML = `<tr><td colspan="8" class="status-err">${esc(err.message)}</td></tr>`;
+      }
+    }
+
+    async function setTargetDir() {
+      const target_dir = getTargetDir();
+      if (!target_dir) return;
+      try {
+        const data = await apiJson("/api/target-dir", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ target_dir })
+        });
+        const input = document.getElementById("dest-root-input");
+        input.value = data.dest_root;
+        input.dataset.userEdited = "1";
+        await fetchCatalog();
+        if (currentDatasetId) await loadManifestFiles();
+      } catch (err) {
+        alert(err.message);
+      }
     }
 
     async function selectDataset(datasetId) {
       currentDatasetId = datasetId;
-      document.getElementById("inspector-section").hidden = false;
+      const sec = document.getElementById("inspector-section");
+      sec.hidden = false;
       document.getElementById("inspector-title").textContent = `Manifest Files — ${datasetId}`;
       await fetchCatalog();
       await loadManifestFiles();
+      sec.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
 
     async function loadManifestFiles() {
@@ -254,86 +315,109 @@
       const summary = document.getElementById("inspector-summary");
       tbody.innerHTML = '<tr><td colspan="5" class="meta">Loading manifest...</td></tr>';
 
-      const url = `/api/manifest/${encodeURIComponent(currentDatasetId)}?match=${encodeURIComponent(match)}&limit=100`;
-      const res = await fetch(url);
-      const data = await res.json();
-      if (!res.ok) {
-        tbody.innerHTML = `<tr><td colspan="5" class="status-err">${esc(data.error || "Failed to load manifest")}</td></tr>`;
+      try {
+        const url = `/api/manifest/${encodeURIComponent(currentDatasetId)}?match=${encodeURIComponent(match)}&limit=100`;
+        const data = await apiJson(url);
+        summary.textContent = `Showing ${data.files.length} of ${data.total_matched} matched (${data.total_indexed} total indexed)`;
+        if (data.files.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="5" class="meta">No files match filter.</td></tr>';
+          return;
+        }
+
+        tbody.innerHTML = data.files.map(f => {
+          const sizeLabel = f.size_bytes ? fmtBytes(f.size_bytes) : (f.size_hint || "-");
+          const localStatus = f.downloaded
+            ? `<span class="status-ok">Downloaded (${fmtBytes(f.local_bytes)})</span>`
+            : `<span class="meta">Not local</span>`;
+          const encodedPath = encodeURIComponent(f.relative_path);
+          return `
+            <tr>
+              <td class="wrap-cell"><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.relative_path)}</a></td>
+              <td>${esc(f.extension || "-")}</td>
+              <td>${esc(sizeLabel)}</td>
+              <td>${localStatus}</td>
+              <td><button type="button" onclick="downloadSingle('${encodedPath}')">Download</button></td>
+            </tr>
+          `;
+        }).join("");
+      } catch (err) {
+        tbody.innerHTML = `<tr><td colspan="5" class="status-err">${esc(err.message)}</td></tr>`;
         summary.textContent = "";
-        return;
       }
+    }
 
-      summary.textContent = `Showing ${data.files.length} of ${data.total_matched} matched (${data.total_indexed} total indexed)`;
-      if (data.files.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="5" class="meta">No files match filter.</td></tr>';
-        return;
-      }
-
-      tbody.innerHTML = data.files.map(f => {
-        const sizeLabel = f.size_bytes ? fmtBytes(f.size_bytes) : (f.size_hint || "-");
-        const localStatus = f.downloaded
-          ? `<span class="status-ok">Downloaded (${fmtBytes(f.local_bytes)})</span>`
-          : `<span class="meta">Not local</span>`;
-        const encodedPath = encodeURIComponent(f.relative_path);
-        return `
-          <tr>
-            <td class="wrap-cell"><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.relative_path)}</a></td>
-            <td>${esc(f.extension || "-")}</td>
-            <td>${esc(sizeLabel)}</td>
-            <td>${localStatus}</td>
-            <td><button type="button" onclick="downloadSingle('${encodedPath}')">Download</button></td>
-          </tr>
-        `;
-      }).join("");
+    async function downloadDatasetRow(datasetId) {
+      currentDatasetId = datasetId;
+      const limit = parseInt(document.getElementById("filter-limit").value, 10) || 5;
+      await startDownload({
+        dataset_id: datasetId,
+        limit,
+        target_dir: getTargetDir()
+      });
     }
 
     async function downloadSingle(encodedRelPath) {
       if (!currentDatasetId) return;
       const relPath = decodeURIComponent(encodedRelPath);
-      await startDownload({ dataset_id: currentDatasetId, relative_paths: [relPath] });
+      await startDownload({
+        dataset_id: currentDatasetId,
+        relative_paths: [relPath],
+        target_dir: getTargetDir()
+      });
     }
 
     async function downloadMatched() {
       if (!currentDatasetId) return;
       const match = document.getElementById("filter-regex").value.trim();
       const limit = parseInt(document.getElementById("filter-limit").value, 10) || 5;
-      await startDownload({ dataset_id: currentDatasetId, match, limit });
+      await startDownload({
+        dataset_id: currentDatasetId,
+        match,
+        limit,
+        target_dir: getTargetDir()
+      });
     }
 
     async function startDownload(payload) {
-      const res = await fetch("/api/download", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
-      const data = await res.json();
-      if (!res.ok) {
-        alert(data.error || "Failed to start download");
-        return;
+      try {
+        await apiJson("/api/download", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        await fetchJobs();
+        ensurePolling();
+      } catch (err) {
+        alert(err.message);
       }
-      await fetchJobs();
-      ensurePolling();
     }
 
     async function convertDataset(datasetId) {
       const mode = document.getElementById("convert-mode").value;
-      const res = await fetch("/api/convert", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ dataset_id: datasetId, mode })
-      });
-      const data = await res.json();
-      if (!res.ok) {
-        alert(data.error || "Failed to start conversion");
-        return;
+      try {
+        await apiJson("/api/convert", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            dataset_id: datasetId,
+            mode,
+            target_dir: getTargetDir()
+          })
+        });
+        await fetchJobs();
+        ensurePolling();
+      } catch (err) {
+        alert(err.message);
       }
-      await fetchJobs();
-      ensurePolling();
     }
 
     async function cancelJob(jobId) {
-      await fetch(`/api/jobs/${encodeURIComponent(jobId)}/cancel`, { method: "POST" });
-      await fetchJobs();
+      try {
+        await apiJson(`/api/jobs/${encodeURIComponent(jobId)}/cancel`, { method: "POST" });
+        await fetchJobs();
+      } catch (err) {
+        alert(err.message);
+      }
     }
 
     async function reindexCurrent() {
@@ -342,9 +426,11 @@
       btn.disabled = true;
       btn.textContent = "Indexing...";
       try {
-        await fetch(`/api/index/${encodeURIComponent(currentDatasetId)}`, { method: "POST" });
+        await apiJson(`/api/index/${encodeURIComponent(currentDatasetId)}`, { method: "POST" });
         await fetchCatalog();
         await loadManifestFiles();
+      } catch (err) {
+        alert(err.message);
       } finally {
         btn.disabled = false;
         btn.textContent = "Re-index Remote";
@@ -352,46 +438,49 @@
     }
 
     async function fetchJobs() {
-      const res = await fetch("/api/jobs");
-      const data = await res.json();
-      const jobs = data.jobs || [];
-      const tbody = document.getElementById("jobs-body");
+      try {
+        const data = await apiJson("/api/jobs");
+        const jobs = data.jobs || [];
+        const tbody = document.getElementById("jobs-body");
 
-      if (jobs.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="9" class="meta">No jobs started in this session.</td></tr>';
+        if (jobs.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="9" class="meta">No jobs started in this session.</td></tr>';
+          return false;
+        }
+
+        let anyActive = false;
+        tbody.innerHTML = jobs.map(j => {
+          const isRunning = j.status === "queued" || j.status === "downloading" || j.status.startsWith("converting");
+          if (isRunning) anyActive = true;
+          const pct = j.current_file_total > 0
+            ? Math.min(100, Math.round((j.current_file_bytes / j.current_file_total) * 100))
+            : 0;
+          const progHtml = j.current_file_total > 0
+            ? `<progress value="${pct}" max="100"></progress> ${pct}%`
+            : (isRunning ? "working..." : "-");
+          const statusCls = j.status === "completed" ? "status-ok" : (j.status === "error" ? "status-err" : "");
+          const actionHtml = isRunning
+            ? `<button type="button" onclick="cancelJob('${esc(j.job_id)}')">Cancel</button>`
+            : "";
+          return `
+            <tr>
+              <td>${esc(j.job_id)}</td>
+              <td>${esc(j.job_type || "download")}</td>
+              <td>${esc(j.dataset_id)}</td>
+              <td class="wrap-cell">${esc(j.current_file || "-")}</td>
+              <td>${j.files_completed} / ${j.files_total}</td>
+              <td>${progHtml}</td>
+              <td>${fmtBytes(j.total_bytes_downloaded)}</td>
+              <td class="${statusCls}">${esc(j.status)}${j.error ? ": " + esc(j.error) : ""}</td>
+              <td>${actionHtml}</td>
+            </tr>
+          `;
+        }).join("");
+
+        return anyActive;
+      } catch (_) {
         return false;
       }
-
-      let anyActive = false;
-      tbody.innerHTML = jobs.map(j => {
-        const isRunning = j.status === "queued" || j.status === "downloading" || j.status.startsWith("converting");
-        if (isRunning) anyActive = true;
-        const pct = j.current_file_total > 0
-          ? Math.min(100, Math.round((j.current_file_bytes / j.current_file_total) * 100))
-          : 0;
-        const progHtml = j.current_file_total > 0
-          ? `<progress value="${pct}" max="100"></progress> ${pct}%`
-          : (isRunning ? "working..." : "-");
-        const statusCls = j.status === "completed" ? "status-ok" : (j.status === "error" ? "status-err" : "");
-        const actionHtml = isRunning
-          ? `<button type="button" onclick="cancelJob('${esc(j.job_id)}')">Cancel</button>`
-          : "";
-        return `
-          <tr>
-            <td>${esc(j.job_id)}</td>
-            <td>${esc(j.job_type || "download")}</td>
-            <td>${esc(j.dataset_id)}</td>
-            <td class="wrap-cell">${esc(j.current_file || "-")}</td>
-            <td>${j.files_completed} / ${j.files_total}</td>
-            <td>${progHtml}</td>
-            <td>${fmtBytes(j.total_bytes_downloaded)}</td>
-            <td class="${statusCls}">${esc(j.status)}${j.error ? ": " + esc(j.error) : ""}</td>
-            <td>${actionHtml}</td>
-          </tr>
-        `;
-      }).join("");
-
-      return anyActive;
     }
 
     function ensurePolling() {
@@ -409,6 +498,11 @@
       }, 1000);
     }
 
+    document.getElementById("btn-set-dest").addEventListener("click", setTargetDir);
+    document.getElementById("dest-root-input").addEventListener("keydown", e => {
+      if (e.key === "Enter") setTargetDir();
+    });
+    document.getElementById("btn-convert-all").addEventListener("click", () => convertDataset("__all__"));
     document.getElementById("btn-refresh").addEventListener("click", async () => {
       await fetchCatalog();
       await fetchJobs();

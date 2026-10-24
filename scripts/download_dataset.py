@@ -33,7 +33,10 @@ ALLOWED_IN_REPO_DIRS = {"downloads", "data", "raw", "cache", "scratch"}
 
 def verify_safe_destination(dest: Path) -> Path:
     """Ensure the destination is never a git-tracked path inside the repository."""
-    resolved = dest.expanduser().resolve()
+    expanded = dest.expanduser()
+    if not expanded.is_absolute():
+        expanded = REPO_ROOT / expanded
+    resolved = expanded.resolve()
     try:
         rel = resolved.relative_to(REPO_ROOT)
         top_part = rel.parts[0] if rel.parts else ""
