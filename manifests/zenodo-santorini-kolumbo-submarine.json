@@ -1,0 +1,36 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/11241132",
+  "zenodo_record_id": "11241132",
+  "doi": "10.5281/zenodo.11241132",
+  "title": "Challenges in submarine fiber-optic earthquake monitoring",
+  "crawled_at": "2026-10-26T23:30:24.790087+00:00",
+  "files_found": 3,
+  "files": [
+    {
+      "relative_path": "microseisms_data_20211126_1129.zip",
+      "url": "https://zenodo.org/api/records/11241132/files/microseisms_data_20211126_1129.zip/content",
+      "extension": ".zip",
+      "size_bytes": 1117543582,
+      "size_hint": "1065.77M",
+      "checksum": "md5:04d9eab18a64f4f9b655ebcedee6ca4a"
+    },
+    {
+      "relative_path": "earthquake_data_20211023_0240.zip",
+      "url": "https://zenodo.org/api/records/11241132/files/earthquake_data_20211023_0240.zip/content",
+      "extension": ".zip",
+      "size_bytes": 305844130,
+      "size_hint": "291.68M",
+      "checksum": "md5:31a0928f18522dbd7615c9c34f5bc77f"
+    },
+    {
+      "relative_path": "earthquake_data_20211023_1649.zip",
+      "url": "https://zenodo.org/api/records/11241132/files/earthquake_data_20211023_1649.zip/content",
+      "extension": ".zip",
+      "size_bytes": 203611054,
+      "size_hint": "194.18M",
+      "checksum": "md5:4a4f9d94fe27185923b951e54dac1a51"
+    }
+  ],
+  "dataset_id": "zenodo-santorini-kolumbo-submarine"
+}

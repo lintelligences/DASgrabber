@@ -1,0 +1,92 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/17143738",
+  "zenodo_record_id": "17143738",
+  "doi": "10.5281/zenodo.17143738",
+  "title": "Continuous data used in the publication \"Automatic earthquake catalogs from a permanent DAS offshore network\".",
+  "crawled_at": "2026-10-26T23:30:19.105885+00:00",
+  "files_found": 10,
+  "files": [
+    {
+      "relative_path": "18_20.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/18_20.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4791795987,
+      "size_hint": "4569.81M",
+      "checksum": "md5:97ac24161c4b5b30eab497c541bd0acf"
+    },
+    {
+      "relative_path": "10_12.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/10_12.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4783023264,
+      "size_hint": "4561.45M",
+      "checksum": "md5:ad48708098bef84af585f62b072296eb"
+    },
+    {
+      "relative_path": "00_02.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/00_02.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4778385696,
+      "size_hint": "4557.02M",
+      "checksum": "md5:5910e7ed12c7ba278e0f6eba1942c778"
+    },
+    {
+      "relative_path": "14_16.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/14_16.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4777390864,
+      "size_hint": "4556.07M",
+      "checksum": "md5:3a006a045cb7a5ff4ed52d7adc7a8537"
+    },
+    {
+      "relative_path": "02_04.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/02_04.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4776983428,
+      "size_hint": "4555.69M",
+      "checksum": "md5:0283372e07486b426c672006ac6c51ab"
+    },
+    {
+      "relative_path": "08_10.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/08_10.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4775003619,
+      "size_hint": "4553.80M",
+      "checksum": "md5:b2a2870c53075e4bd472460a862e628a"
+    },
+    {
+      "relative_path": "06_08.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/06_08.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4769869392,
+      "size_hint": "4548.90M",
+      "checksum": "md5:672fd16ff6bde78c84f50134ebfa9fbb"
+    },
+    {
+      "relative_path": "16_18.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/16_18.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4767601677,
+      "size_hint": "4546.74M",
+      "checksum": "md5:c2b2c083d99cbc7d94c07a64829f4806"
+    },
+    {
+      "relative_path": "04_06.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/04_06.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4766469725,
+      "size_hint": "4545.66M",
+      "checksum": "md5:734c00a739fccf8c7b0ee28440a66a8b"
+    },
+    {
+      "relative_path": "12_14.zip",
+      "url": "https://zenodo.org/api/records/17143738/files/12_14.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4758963474,
+      "size_hint": "4538.50M",
+      "checksum": "md5:c83bf0c75072a04258be4d7e4f92a12d"
+    }
+  ],
+  "dataset_id": "zenodo-abyss-offshore-optodas"
+}

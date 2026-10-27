@@ -1,0 +1,60 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/23221461",
+  "zenodo_record_id": "23221461",
+  "doi": "10.5281/zenodo.23221461",
+  "title": "Distributed acoustic sensing (DAS) data for property inversion from landfast ice near Utqiagvik, Alaska, April-May 2025",
+  "crawled_at": "2026-10-26T23:32:35.498067+00:00",
+  "files_found": 6,
+  "files": [
+    {
+      "relative_path": "pisces_2025_Fs5Hz.zip",
+      "url": "https://zenodo.org/api/records/23221461/files/pisces_2025_Fs5Hz.zip/content",
+      "extension": ".zip",
+      "size_bytes": 1837356204,
+      "size_hint": "1752.24M",
+      "checksum": "md5:8dcc10ad5e1ed8ecc52b0c225365d1dc"
+    },
+    {
+      "relative_path": "pisces_2025_hammer_signals.zip",
+      "url": "https://zenodo.org/api/records/23221461/files/pisces_2025_hammer_signals.zip/content",
+      "extension": ".zip",
+      "size_bytes": 1180780569,
+      "size_hint": "1126.08M",
+      "checksum": "md5:47ad58be842c8cf8c28fd65a4f04e316"
+    },
+    {
+      "relative_path": "channel_geometry_full.npz",
+      "url": "https://zenodo.org/api/records/23221461/files/channel_geometry_full.npz/content",
+      "extension": ".npz",
+      "size_bytes": 17768,
+      "size_hint": "17768B",
+      "checksum": "md5:07010334056f5fdf7944ef34621b5698"
+    },
+    {
+      "relative_path": "README_pisces_2025_hammer_signals.txt",
+      "url": "https://zenodo.org/api/records/23221461/files/README_pisces_2025_hammer_signals.txt/content",
+      "extension": ".txt",
+      "size_bytes": 5329,
+      "size_hint": "5329B",
+      "checksum": "md5:e2ad5aca66b32bed3eb13f800d7af2a5"
+    },
+    {
+      "relative_path": "channel_geometry_L.npz",
+      "url": "https://zenodo.org/api/records/23221461/files/channel_geometry_L.npz/content",
+      "extension": ".npz",
+      "size_bytes": 4410,
+      "size_hint": "4410B",
+      "checksum": "md5:a9288d716a61d61dac57530177add943"
+    },
+    {
+      "relative_path": "README_pisces_2025_Fs5Hz.txt",
+      "url": "https://zenodo.org/api/records/23221461/files/README_pisces_2025_Fs5Hz.txt/content",
+      "extension": ".txt",
+      "size_bytes": 4324,
+      "size_hint": "4324B",
+      "checksum": "md5:64da7e749ec3a020fbfa0c6408bed9f1"
+    }
+  ],
+  "dataset_id": "zenodo-utqiagvik-arctic-seaice"
+}

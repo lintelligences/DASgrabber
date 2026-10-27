@@ -1,0 +1,36 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/20668434",
+  "zenodo_record_id": "20668434",
+  "doi": "10.5281/zenodo.20668434",
+  "title": "Secondary microseisms' propagation effects highlighted by Joint DAS observations and Full Waveform Modelling offshore Sicily",
+  "crawled_at": "2026-10-26T23:32:33.650900+00:00",
+  "files_found": 3,
+  "files": [
+    {
+      "relative_path": "DAS_data.zip",
+      "url": "https://zenodo.org/api/records/20668434/files/DAS_data.zip/content",
+      "extension": ".zip",
+      "size_bytes": 8616212480,
+      "size_hint": "8217.06M",
+      "checksum": "md5:9902d7158eaffa6d728cbb3f5fc88b5f"
+    },
+    {
+      "relative_path": "simulations.zip",
+      "url": "https://zenodo.org/api/records/20668434/files/simulations.zip/content",
+      "extension": ".zip",
+      "size_bytes": 11825463946,
+      "size_hint": "11277.64M",
+      "checksum": "md5:bd112a1e7095e39aad63a66ce74a80ab"
+    },
+    {
+      "relative_path": "README.txt",
+      "url": "https://zenodo.org/api/records/20668434/files/README.txt/content",
+      "extension": ".txt",
+      "size_bytes": 2874,
+      "size_hint": "2874B",
+      "checksum": "md5:1ff71bed6f9f0a036621eeda4de950b9"
+    }
+  ],
+  "dataset_id": "zenodo-sicily-microseisms-das"
+}

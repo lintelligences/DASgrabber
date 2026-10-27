@@ -88,6 +88,8 @@ def detect_file_format(path: Path) -> str:
         return "hdf5_mat73"
     if head.startswith(b"MATLAB 5.0"):
         return "mat_v5"
+    if head.startswith(b"\x93NUMPY"):
+        return "npy"
     raise RuntimeError(
         f"Unrecognized file signature in '{path.name}' (first 16 bytes: {head[:16]!r})."
     )
@@ -202,9 +204,19 @@ def parse_mi_matrix(buf: memoryview, elem_start: int, elem_nbytes: int) -> Tuple
         val_dtype, val_nbytes, val_start, _ = read_tag(buf, pos)
         raw = bytes(buf[val_start : val_start + val_nbytes])
         if val_dtype in (MI_UINT16, MI_INT16, MI_UTF16):
-            text = raw.decode("utf-16le", errors="replace").rstrip("\x00 ")
+            chars = raw.decode("utf-16le", errors="replace")
         else:
-            text = raw.decode("utf-8", errors="replace").rstrip("\x00 ")
+            chars = raw.decode("utf-8", errors="replace")
+        if len(dims) == 2 and dims[0] > 1 and len(chars) == dims[0] * dims[1]:
+            rows = []
+            nrows, ncols = dims[0], dims[1]
+            for r in range(nrows):
+                row_str = "".join(chars[r + c * nrows] for c in range(ncols)).rstrip("\x00 ")
+                if row_str:
+                    rows.append(row_str)
+            text = "\n".join(rows)
+        else:
+            text = chars.rstrip("\x00 ")
         return name, text
 
     val_dtype, val_nbytes, val_start, _ = read_tag(buf, pos)
@@ -323,9 +335,21 @@ def write_dimension_metadata(
     n_channels: int,
     dt: float,
     dx: float,
-    t0: float,
-    x0: float = 0.0,
+    ch_start: int = 0,
+    ch_end: Optional[int] = None,
 ) -> None:
+    """
+    Writes exact Alcatel Submarine Networks (ASN) OptoDAS v8 dimension metadata
+    expected by `simpleDAS` (`simpleDASreader.py` / `h5pydict.py`):
+      - /header/dimensionNames = [b"time", b"distance"]
+      - /header/dimensionUnits = [b"s", b"m"]
+      - /header/dimensionSizes = [n_samples, n_channels]
+      - /header/dimensionRanges/dimension0: {min: 0, max: n_samples - 1, size: n_samples, unitScale: dt}
+      - /header/dimensionRanges/dimension1: {min: [ch_start], max: [ch_end], size: [n_channels], unitScale: dx}
+    """
+    if ch_end is None:
+        ch_end = ch_start + max(0, n_channels - 1)
+
     for k, v in [
         ("dimensionNames", np.array([b"time", b"distance"], dtype="S")),
         ("dimensionUnits", np.array([b"s", b"m"], dtype="S")),
@@ -335,26 +359,197 @@ def write_dimension_metadata(
             del hdr[k]
         hdr.create_dataset(k, data=v)
 
-    dim_ranges = hdr.require_group("dimensionRanges")
-    for d_idx, (d_name, d_unit, d_size, d_scale, d_min) in enumerate([
-        (b"time", b"s", n_samples, dt, t0),
-        (b"distance", b"m", n_channels, dx, x0),
-    ]):
-        d_grp = dim_ranges.require_group(f"dimension{d_idx}")
-        for dk, dv in [
-            ("name", np.bytes_(d_name)),
-            ("unit", np.bytes_(d_unit)),
-            ("size", np.int64(d_size)),
-            ("unitScale", np.float64(d_scale)),
-            ("min", np.float64(d_min)),
-            ("max", np.float64(d_min + max(0, d_size - 1) * d_scale)),
-        ]:
-            if dk in d_grp:
-                del d_grp[dk]
-            d_grp.create_dataset(dk, data=dv)
+    if "dimensionRanges" in hdr:
+        del hdr["dimensionRanges"]
+    dim_ranges = hdr.create_group("dimensionRanges")
+
+    d0 = dim_ranges.create_group("dimension0")
+    d0.create_dataset("min", data=np.int64(0))
+    d0.create_dataset("max", data=np.int64(max(0, n_samples - 1)))
+    d0.create_dataset("size", data=np.int64(n_samples))
+    d0.create_dataset("unitScale", data=np.float64(dt))
+
+    d1 = dim_ranges.create_group("dimension1")
+    d1.create_dataset("min", data=np.array([int(ch_start)], dtype=np.int64))
+    d1.create_dataset("max", data=np.array([int(ch_end)], dtype=np.int64))
+    d1.create_dataset("size", data=np.array([int(n_channels)], dtype=np.int64))
+    d1.create_dataset("unitScale", data=np.float64(dx))
 
 
-def convert_mat_v5_to_optodas_h5(in_path: Path, out_path: Path, chunk_samples: int = 10000) -> None:
+def write_mat_v5_headers_to_h5(
+    h5f: Any,
+    in_path: Path,
+    n_samples: int,
+    n_channels: int,
+    meta_vars: Dict[str, Any],
+) -> None:
+    """
+    Populates OptoDAS v8 groups (/fileVersion, /header, /acqSpec, /demodSpec,
+    /cableSpec, /monitoring, /timing) from the parsed MATLAB v5 metadata variables
+    (`info_DAS_meta_raw`, `info_*`, `x1_*`) in strict compliance with `ASN-Norway/simpleDAS`.
+    """
+    raw_alcatel = meta_vars.get("info_DAS_meta_raw")
+    if isinstance(raw_alcatel, dict):
+        write_h5_group_recursively(h5f, raw_alcatel)
+
+    if "fileVersion" in h5f:
+        del h5f["fileVersion"]
+    h5f.create_dataset("fileVersion", data=np.int32(8))
+
+    hdr = h5f.require_group("header")
+    raw_hdr = raw_alcatel.get("header", {}) if isinstance(raw_alcatel, dict) else {}
+    raw_demod = raw_alcatel.get("demodSpec", {}) if isinstance(raw_alcatel, dict) else {}
+
+    dt = float(np.asarray(meta_vars.get("info_sample_interval_s", raw_hdr.get("dt", 1.0 / 645.16129))).ravel()[0])
+    gl = float(np.asarray(meta_vars.get("info_GL_m", 8.170401526197452)).ravel()[0])
+
+    # Determine ROI decimation and channel indices
+    if "x1_relative_channel" in meta_vars:
+        ch_arr = np.asarray(meta_vars["x1_relative_channel"], dtype=np.int32).ravel()
+    elif "x1_absolute_channel" in meta_vars:
+        ch_arr = np.asarray(meta_vars["x1_absolute_channel"], dtype=np.int32).ravel()
+    else:
+        ch_arr = np.arange(n_channels, dtype=np.int32)
+
+    if "x1_absolute_channel" in meta_vars:
+        abs_ch = np.asarray(meta_vars["x1_absolute_channel"], dtype=np.int32).ravel()
+        roi_start = int(abs_ch[0]) if abs_ch.size > 0 else 0
+        roi_end = int(abs_ch[-1]) if abs_ch.size > 0 else n_channels - 1
+        roi_dec = int(abs_ch[1] - abs_ch[0]) if abs_ch.size > 1 else int(raw_demod.get("roiDec", 1))
+    else:
+        roi_start = int(ch_arr[0]) if ch_arr.size > 0 else 0
+        roi_end = int(ch_arr[-1]) if ch_arr.size > 0 else n_channels - 1
+        roi_dec = int(ch_arr[1] - ch_arr[0]) if ch_arr.size > 1 else int(raw_demod.get("roiDec", 1))
+
+    # Compute true inter-channel spacing dx in the decimated matrix:
+    # Note: in Svalbard .mat files, `info_SSI_m` (1.0213 m) is the un-decimated optical spacing before roiDec=4,
+    # whereas `x1_position_m` gives the actual channel positions spaced by `dx = 4.0852 m`.
+    dx = 0.0
+    if "x1_position_m" in meta_vars:
+        pos_arr = np.asarray(meta_vars["x1_position_m"], dtype=np.float64).ravel()
+        if pos_arr.size > 1:
+            dx = float(abs(pos_arr[1] - pos_arr[0]))
+    if dx <= 0.0:
+        ssi = float(np.asarray(meta_vars.get("info_SSI_m", 4.0852)).ravel()[0])
+        dx = ssi * roi_dec if (roi_dec > 1 and abs(gl / ssi - 8.0) < 0.5) else ssi
+
+    # Timestamp t0 (prefer high-precision epoch in info_DAS_meta_raw.header.time)
+    t0 = 0.0
+    if isinstance(raw_hdr, dict) and "time" in raw_hdr:
+        try:
+            t0 = float(np.asarray(raw_hdr["time"]).ravel()[0])
+        except Exception:
+            t0 = 0.0
+    if t0 == 0.0 and "info_timestamp" in meta_vars and isinstance(meta_vars["info_timestamp"], str):
+        t0 = parse_timestamp_epoch(meta_vars["info_timestamp"]) or 0.0
+    if t0 == 0.0:
+        t0 = parse_timestamp_epoch(in_path.name) or 0.0
+
+    exp_str = "Svalbard"
+    if isinstance(raw_hdr, dict) and ("experiment" in raw_hdr or "exp" in raw_hdr):
+        exp_str = str(raw_hdr.get("experiment") or raw_hdr.get("exp"))
+    elif "whale" in in_path.name.lower():
+        exp_str = "Svalbard"
+    else:
+        exp_str = in_path.stem
+
+    # Determine physical units & scaling (Svalbard .mat is in nanostrain = 1e-9 strain, already time-integrated)
+    units_info = str(meta_vars.get("info_units", "")).lower()
+    data_scale = 1e-9 if ("1e-9" in units_info or "nanostrain" in units_info) else 1.0
+
+    # Remove legacy v4 singular sensitivity keys so simpleDASreader doesn't overwrite 2D sensitivities
+    for legacy_k in ("sensitivity", "sensitivityUnit"):
+        if legacy_k in hdr:
+            del hdr[legacy_k]
+
+    for k, v in [
+        ("dt", np.float64(dt)),
+        ("dx", np.float64(dx)),
+        ("gaugeLength", np.float64(gl)),
+        ("time", np.float64(t0)),
+        ("experiment", np.bytes_(exp_str)),
+        ("exp", np.bytes_(exp_str)),
+        ("name", np.bytes_("Strain")),
+        ("dataType", np.int32(2)),  # 2 = integrated strain data (prevents double integration in simpleDASreader)
+        ("dataScale", np.float32(data_scale)),
+        ("unit", np.bytes_("strain")),
+        ("sensitivities", np.ones((1, 1), dtype=np.float32)),  # Must be 2D (1, 1) for simpleDASreader[:, 0]
+        ("sensitivityUnits", np.array([b""], dtype="S")),      # Empty denominator so unit_out = "strain" / "" = "strain"
+        ("spatialUnwrRange", np.float32(0.0)),
+        ("channels", ch_arr),
+        ("sensorType", np.array([b"D"], dtype="S")),
+    ]:
+        if k in hdr:
+            del hdr[k]
+        hdr.create_dataset(k, data=v)
+
+    ch_start = int(ch_arr[0]) if ch_arr.size > 0 else 0
+    ch_end = int(ch_arr[-1]) if ch_arr.size > 0 else max(0, n_channels - 1)
+    write_dimension_metadata(hdr, n_samples, n_channels, dt, dx, ch_start=ch_start, ch_end=ch_end)
+
+    # Ensure /acqSpec and /demodSpec match the cropped matrix dimensions
+    acq = h5f.require_group("acqSpec")
+    for ak, av in [
+        ("nSamples", np.int32(n_samples)),
+        ("nChannels", np.int32(n_channels)),
+    ]:
+        if ak in acq:
+            del acq[ak]
+        acq.create_dataset(ak, data=av)
+
+    demod = h5f.require_group("demodSpec")
+    for dk, dv in [
+        ("roiStart", np.int32(roi_start)),
+        ("roiEnd", np.int32(roi_end)),
+        ("roiDec", np.int32(roi_dec)),
+    ]:
+        if dk in demod:
+            del demod[dk]
+        demod.create_dataset(dk, data=dv)
+
+    # Populate /cableSpec with standard ASN OptoDAS v8 keys + bathymetry/distances from .mat
+    cable = h5f.require_group("cableSpec")
+    for ck, cv in [
+        ("fiberOverLength", np.float64(1.0)),
+        ("refractiveIndex", np.float64(1.4677)),
+        ("zeta", np.float64(0.78)),
+    ]:
+        if ck not in cable:
+            cable.create_dataset(ck, data=cv)
+
+    for src_k, dst_k in [
+        ("x1_position_m", "sensorDistances"),
+        ("x1_recwdepthz_m", "sensorDepths"),
+        ("x1_distance_from_shore_m", "distanceFromShore"),
+    ]:
+        if src_k in meta_vars:
+            if dst_k in cable:
+                del cable[dst_k]
+            cable.create_dataset(dst_k, data=np.asarray(meta_vars[src_k], dtype=np.float64).ravel())
+
+    # Ensure /timing and /monitoring/Gps + /monitoring/Laser/itu exist for simpleDASreader.get_filemeta()
+    timing = h5f.require_group("timing")
+    if "SyncSource" not in timing:
+        timing.create_dataset("SyncSource", data=np.bytes_("GPS"))
+    if "ppses" not in timing:
+        timing.create_dataset("ppses", data=np.array([int(t0)], dtype=np.int64))
+
+    mon = h5f.require_group("monitoring")
+    if "Gps" not in mon:
+        gps = mon.create_group("Gps")
+        gps.create_dataset("status", data=np.int32(1))
+    if "Laser" not in mon:
+        laser_v8 = mon.create_group("Laser")
+        itu_val = 41
+        if "laser" in mon and "itu" in mon["laser"]:
+            try:
+                itu_val = int(np.asarray(mon["laser"]["itu"][()]).ravel()[0])
+            except Exception:
+                itu_val = 41
+        laser_v8.create_dataset("itu", data=np.int32(itu_val))
+
+
+def convert_mat_v5_to_optodas_h5(in_path: Path, out_path: Path, chunk_samples: int = 10000) -> str:
     try:
         import h5py
     except ImportError:
@@ -367,105 +562,20 @@ def convert_mat_v5_to_optodas_h5(in_path: Path, out_path: Path, chunk_samples: i
     transpose_needed = (dim0 == ntraces and dim1 == nsamples)
     n_samples, n_channels = (dim1, dim0) if transpose_needed else (dim0, dim1)
 
+    # Fast path (~2 ms): if out_path already exists with the exact /data shape, update headers in-place
+    # directly from the source .mat metadata without re-copying the 2.4 GB /data matrix!
+    if out_path.exists():
+        try:
+            with h5py.File(out_path, "r+") as existing_h5:
+                if "/data" in existing_h5 and tuple(existing_h5["/data"].shape) == (n_samples, n_channels):
+                    write_mat_v5_headers_to_h5(existing_h5, in_path, n_samples, n_channels, meta_vars)
+                    return "updated_headers_from_mat"
+        except Exception:
+            pass
+
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with h5py.File(out_path, "w") as h5f:
-        raw_alcatel = meta_vars.get("info_DAS_meta_raw")
-        if isinstance(raw_alcatel, dict):
-            write_h5_group_recursively(h5f, raw_alcatel)
-
-        if "fileVersion" in h5f:
-            del h5f["fileVersion"]
-        h5f.create_dataset("fileVersion", data=np.int32(8))
-
-        hdr = h5f.require_group("header")
-        dt = float(np.asarray(meta_vars.get("info_sample_interval_s", 1.0 / 645.16129)).ravel()[0])
-        dx = float(np.asarray(meta_vars.get("info_SSI_m", 4.083369)).ravel()[0])
-        gl = float(np.asarray(meta_vars.get("info_GL_m", 8.166739)).ravel()[0])
-
-        t0 = 0.0
-        if "info_timestamp" in meta_vars and isinstance(meta_vars["info_timestamp"], str):
-            t0 = parse_timestamp_epoch(meta_vars["info_timestamp"]) or 0.0
-        if t0 == 0.0 and "time" in hdr:
-            try:
-                t0 = float(np.asarray(hdr["time"][()]).ravel()[0])
-            except Exception:
-                t0 = 0.0
-        if t0 == 0.0:
-            t0 = parse_timestamp_epoch(in_path.name) or 0.0
-
-        if "x1_relative_channel" in meta_vars:
-            ch_arr = np.asarray(meta_vars["x1_relative_channel"], dtype=np.int32).ravel()
-        elif "x1_absolute_channel" in meta_vars:
-            ch_arr = np.asarray(meta_vars["x1_absolute_channel"], dtype=np.int32).ravel()
-        else:
-            ch_arr = np.arange(n_channels, dtype=np.int32)
-
-        x0 = 0.0
-        if "x1_position_m" in meta_vars:
-            pos_arr = np.asarray(meta_vars["x1_position_m"], dtype=np.float64).ravel()
-            if pos_arr.size > 0:
-                x0 = float(pos_arr[0])
-
-        for k, v in [
-            ("dt", np.float64(dt)),
-            ("dx", np.float64(dx)),
-            ("gaugeLength", np.float64(gl)),
-            ("time", np.float64(t0)),
-            ("dataScale", np.float64(1.0)),
-            ("sensitivities", np.ones((1,), dtype=np.float64)),
-            ("sensitivityUnits", np.array([b"strain"], dtype="S")),
-            ("sensitivityUnit", np.bytes_("strain")),
-            ("unit", np.bytes_("strain")),
-            ("spatialUnwrRange", np.float64(0.0)),
-            ("channels", ch_arr),
-            ("name", np.bytes_(in_path.stem)),
-        ]:
-            if k in hdr:
-                del hdr[k]
-            hdr.create_dataset(k, data=v)
-
-        write_dimension_metadata(hdr, n_samples, n_channels, dt, dx, t0, x0)
-
-        # Ensure /acqSpec and /demodSpec match the actual cropped matrix dimensions
-        acq = h5f.require_group("acqSpec")
-        for ak, av in [
-            ("nSamples", np.int32(n_samples)),
-            ("nChannels", np.int32(n_channels)),
-        ]:
-            if ak in acq:
-                del acq[ak]
-            acq.create_dataset(ak, data=av)
-
-        demod = h5f.require_group("demodSpec")
-        if "x1_absolute_channel" in meta_vars:
-            abs_ch = np.asarray(meta_vars["x1_absolute_channel"], dtype=np.int32).ravel()
-            roi_start = int(abs_ch[0]) if abs_ch.size > 0 else 0
-            roi_end = int(abs_ch[-1]) if abs_ch.size > 0 else n_channels - 1
-            roi_dec = int(abs_ch[1] - abs_ch[0]) if abs_ch.size > 1 else 1
-        else:
-            roi_start = int(ch_arr[0]) if ch_arr.size > 0 else 0
-            roi_end = int(ch_arr[-1]) if ch_arr.size > 0 else n_channels - 1
-            roi_dec = int(ch_arr[1] - ch_arr[0]) if ch_arr.size > 1 else 1
-
-        for dk, dv in [
-            ("roiStart", np.int32(roi_start)),
-            ("roiEnd", np.int32(roi_end)),
-            ("roiDec", np.int32(roi_dec)),
-        ]:
-            if dk in demod:
-                del demod[dk]
-            demod.create_dataset(dk, data=dv)
-
-        cable = h5f.require_group("cableSpec")
-        for src_k, dst_k in [
-            ("x1_position_m", "sensorDistances"),
-            ("x1_recwdepthz_m", "sensorDepths"),
-            ("x1_distance_from_shore_m", "distanceFromShore"),
-        ]:
-            if src_k in meta_vars:
-                if dst_k in cable:
-                    del cable[dst_k]
-                cable.create_dataset(dst_k, data=np.asarray(meta_vars[src_k], dtype=np.float64).ravel())
+        write_mat_v5_headers_to_h5(h5f, in_path, n_samples, n_channels, meta_vars)
 
         dset = h5f.create_dataset(
             "data",
@@ -477,6 +587,7 @@ def convert_mat_v5_to_optodas_h5(in_path: Path, out_path: Path, chunk_samples: i
             s1 = min(s0 + chunk_samples, n_samples)
             chunk = np.asarray(mm[:, s0:s1].T if transpose_needed else mm[s0:s1, :], dtype=np.float32)
             dset[s0:s1, :] = chunk
+    return "converted_mat"
 
 
 def inspect_foreign_hdf5(in_path: Path) -> Dict[str, Any]:
@@ -523,6 +634,17 @@ def inspect_foreign_hdf5(in_path: Path) -> Dict[str, Any]:
 
             has_dim_names = "/header/dimensionNames" in summary["datasets"]
             has_dim_sizes = "/header/dimensionSizes" in summary["datasets"]
+            has_exp = "/header/experiment" in summary["datasets"]
+            has_sensor_type = "/header/sensorType" in summary["datasets"]
+            has_bad_dim_name_key = "/header/dimensionRanges/dimension0/name" in summary["datasets"]
+            sens_is_2d = (
+                "/header/sensitivities" in summary["datasets"]
+                and len(summary["datasets"]["/header/sensitivities"]["shape"]) == 2
+            )
+            dim1_min_is_1d = (
+                "/header/dimensionRanges/dimension1/min" in summary["datasets"]
+                and len(summary["datasets"]["/header/dimensionRanges/dimension1/min"]["shape"]) == 1
+            )
             dim_sizes_match = False
             if has_dim_sizes:
                 try:
@@ -531,7 +653,16 @@ def inspect_foreign_hdf5(in_path: Path) -> Dict[str, Any]:
                 except Exception:
                     dim_sizes_match = False
 
-            if "/header/dt" in summary["datasets"] and has_dim_names and dim_sizes_match:
+            if (
+                "/header/dt" in summary["datasets"]
+                and has_dim_names
+                and dim_sizes_match
+                and has_exp
+                and has_sensor_type
+                and sens_is_2d
+                and dim1_min_is_1d
+                and not has_bad_dim_name_key
+            ):
                 summary["is_native_optodas"] = True
             else:
                 summary["needs_optodas_repair"] = True
@@ -541,11 +672,22 @@ def inspect_foreign_hdf5(in_path: Path) -> Dict[str, Any]:
 
 def repair_converted_optodas_hdf5(in_path: Path) -> str:
     """
-    Repairs or upgrades an existing OptoDAS HDF5 file (such as a converted Svalbard
-    whale `.hdf5` file whose `/header` was missing `dimensionSizes` or had `dimensionSizes`
-    mismatched against `/data.shape`) in-place in ~1 ms without touching `/data`.
+    Repairs or upgrades an existing OptoDAS HDF5 file in-place in ~2 ms without touching `/data`.
+    If a sibling `.mat` file exists next to `*_optodas.hdf5`, reads the exact MATLAB metadata
+    variables directly from the `.mat` file tail (~2 ms) and writes compliant OptoDAS v8 headers.
     """
     import h5py
+
+    # 1. Check if the source .mat file exists alongside this *_optodas.hdf5 file
+    if in_path.stem.endswith("_optodas"):
+        base_stem = in_path.stem[: -len("_optodas")]
+        sibling_mat = in_path.with_name(f"{base_stem}.mat")
+        if sibling_mat.exists():
+            _, _, meta_vars = inspect_and_load_mat_v5(sibling_mat)
+            with h5py.File(in_path, "r+") as h5f:
+                n_samples, n_channels = h5f["/data"].shape
+                write_mat_v5_headers_to_h5(h5f, sibling_mat, n_samples, n_channels, meta_vars)
+            return "repaired_from_sibling_mat"
 
     with h5py.File(in_path, "r+") as h5f:
         if "/data" not in h5f:
@@ -564,19 +706,17 @@ def repair_converted_optodas_hdf5(in_path: Path) -> str:
         dx = float(np.asarray(hdr["dx"][()]).ravel()[0]) if "dx" in hdr else 1.0
         gl = float(np.asarray(hdr["gaugeLength"][()]).ravel()[0]) if "gaugeLength" in hdr else 10.0
         t0 = float(np.asarray(hdr["time"][()]).ravel()[0]) if "time" in hdr else 0.0
-        x0 = 0.0
 
         if "/cableSpec/sensorDistances" in h5f:
             sd = np.asarray(h5f["/cableSpec/sensorDistances"][()]).ravel()
             if sd.size > 1:
                 dx = float(abs(sd[1] - sd[0]))
-                x0 = float(sd[0])
-                if is_svalbard and abs(gl - 10.0) < 1e-3:
+                if is_svalbard and (abs(gl - 10.0) < 1e-3 or abs(gl / dx - 2.0) > 0.5):
                     gl = 2.0 * dx
 
         if is_svalbard:
             if abs(dt - 0.01) < 1e-6:
-                dt = 1.0 / 645.16129
+                dt = 0.00155
             if t0 == 0.0:
                 t0 = parse_timestamp_epoch(in_path.name) or 0.0
 
@@ -592,19 +732,26 @@ def repair_converted_optodas_hdf5(in_path: Path) -> str:
             else:
                 ch_arr = np.arange(n_channels, dtype=np.int32)
 
+            for legacy_k in ("sensitivity", "sensitivityUnit"):
+                if legacy_k in hdr:
+                    del hdr[legacy_k]
+
             for k, v in [
                 ("dt", np.float64(dt)),
                 ("dx", np.float64(dx)),
                 ("gaugeLength", np.float64(gl)),
                 ("time", np.float64(t0)),
-                ("dataScale", np.float64(1.0)),
-                ("sensitivities", np.ones((1,), dtype=np.float64)),
-                ("sensitivityUnits", np.array([b"strain"], dtype="S")),
-                ("sensitivityUnit", np.bytes_("strain")),
+                ("experiment", np.bytes_("Svalbard")),
+                ("exp", np.bytes_("Svalbard")),
+                ("name", np.bytes_("Strain")),
+                ("dataType", np.int32(2)),
+                ("dataScale", np.float32(1e-9)),
                 ("unit", np.bytes_("strain")),
-                ("spatialUnwrRange", np.float64(0.0)),
+                ("sensitivities", np.ones((1, 1), dtype=np.float32)),
+                ("sensitivityUnits", np.array([b""], dtype="S")),
+                ("spatialUnwrRange", np.float32(0.0)),
                 ("channels", ch_arr),
-                ("name", np.bytes_(in_path.stem)),
+                ("sensorType", np.array([b"D"], dtype="S")),
             ]:
                 if k in hdr:
                     del hdr[k]
@@ -630,8 +777,25 @@ def repair_converted_optodas_hdf5(in_path: Path) -> str:
                     if dk in demod:
                         del demod[dk]
                     demod.create_dataset(dk, data=dv)
+        else:
+            if "channels" in hdr and np.asarray(hdr["channels"][()]).size == n_channels:
+                ch_arr = np.asarray(hdr["channels"][()], dtype=np.int32).ravel()
+            else:
+                ch_arr = np.arange(n_channels, dtype=np.int32)
+            if "experiment" not in hdr:
+                exp_val = hdr["exp"][()] if "exp" in hdr else np.bytes_(in_path.stem)
+                hdr.create_dataset("experiment", data=exp_val)
+            if "sensorType" not in hdr:
+                hdr.create_dataset("sensorType", data=np.array([b"D"], dtype="S"))
+            if "sensitivities" in hdr:
+                s_val = np.asarray(hdr["sensitivities"][()], dtype=np.float32)
+                if s_val.ndim < 2:
+                    del hdr["sensitivities"]
+                    hdr.create_dataset("sensitivities", data=np.atleast_2d(s_val))
 
-        write_dimension_metadata(hdr, n_samples, n_channels, dt, dx, t0, x0)
+        ch_start = int(ch_arr[0]) if ch_arr.size > 0 else 0
+        ch_end = int(ch_arr[-1]) if ch_arr.size > 0 else max(0, n_channels - 1)
+        write_dimension_metadata(hdr, n_samples, n_channels, dt, dx, ch_start=ch_start, ch_end=ch_end)
 
     return "repaired_in_place"
 
@@ -657,30 +821,37 @@ def write_alcatel_metadata_groups(
     dst_h5.create_dataset("fileVersion", data=np.int32(8))
 
     hdr = dst_h5.require_group("header")
+    for legacy_k in ("sensitivity", "sensitivityUnit"):
+        if legacy_k in hdr:
+            del hdr[legacy_k]
+
     for k, v in [
         ("dt", np.float64(dt)),
         ("dx", np.float64(dx)),
         ("gaugeLength", np.float64(gauge_length)),
         ("time", np.float64(start_epoch)),
-        ("dataScale", np.float64(data_scale)),
-        ("sensitivities", np.array([sensitivity], dtype=np.float64)),
-        ("sensitivityUnits", np.array([b"rad/m"], dtype="S")),
-        ("sensitivityUnit", np.bytes_("rad/m")),
-        ("unit", np.bytes_("rad")),
-        ("spatialUnwrRange", np.float64(2.0 * math.pi)),
+        ("dataScale", np.float32(data_scale)),
+        ("sensitivities", np.array([[sensitivity]], dtype=np.float32)),  # 2D (1, 1) required by simpleDASreader
+        ("sensitivityUnits", np.array([b"rad/m/strain"], dtype="S")),
+        ("unit", np.bytes_("rad/m/s")),
+        ("spatialUnwrRange", np.float32(8.0 * math.pi / dt / gauge_length if (dt > 0 and gauge_length > 0) else 2.0 * math.pi)),
         ("channels", np.arange(n_channels, dtype=np.int32)),
+        ("sensorType", np.array([b"D"], dtype="S")),
         ("dataType", np.int32(3)),
-        ("name", np.bytes_(in_path.stem)),
+        ("name", np.bytes_("Phase rate per distance")),
+        ("experiment", np.bytes_(in_path.stem)),
         ("exp", np.bytes_(in_path.stem)),
     ]:
         if k in hdr:
             del hdr[k]
         hdr.create_dataset(k, data=v)
 
-    write_dimension_metadata(hdr, n_samples, n_channels, dt, dx, start_epoch, 0.0)
+    write_dimension_metadata(hdr, n_samples, n_channels, dt, dx, ch_start=0, ch_end=max(0, n_channels - 1))
 
     cable = dst_h5.require_group("cableSpec")
     for k, v in [
+        ("fiberOverLength", np.float64(1.0)),
+        ("refractiveIndex", np.float64(n_eff)),
         ("fiberRefractiveIndex", np.float64(n_eff)),
         ("zeta", np.float64(zeta)),
         ("wavelength", np.float64(wavelength_m)),
@@ -689,6 +860,20 @@ def write_alcatel_metadata_groups(
         if k in cable:
             del cable[k]
         cable.create_dataset(k, data=v)
+
+    timing = dst_h5.require_group("timing")
+    if "SyncSource" not in timing:
+        timing.create_dataset("SyncSource", data=np.bytes_("GPS"))
+    if "ppses" not in timing:
+        timing.create_dataset("ppses", data=np.array([int(start_epoch)], dtype=np.int64))
+
+    mon = dst_h5.require_group("monitoring")
+    if "Gps" not in mon:
+        gps = mon.create_group("Gps")
+        gps.create_dataset("status", data=np.int32(1))
+    if "Laser" not in mon:
+        laser_v8 = mon.create_group("Laser")
+        laser_v8.create_dataset("itu", data=np.int32(51))
 
     for cand_ch in [in_path.parent / "channelinfo.txt", in_path.parent.parent / "channelinfo.txt"]:
         if cand_ch.exists():
@@ -862,12 +1047,68 @@ def convert_foreign_hdf5_to_optodas(
     return "copied"
 
 
+def convert_npy_to_optodas_h5(in_path: Path, out_path: Path, chunk_samples: int = 2000) -> str:
+    try:
+        import h5py
+    except ImportError:
+        sys.exit("h5py is required to write OptoDAS HDF5 files (`pip install h5py numpy`).")
+    if np is None:
+        sys.exit("numpy is required to convert .npy files (`pip install numpy h5py`).")
+
+    arr = np.load(str(in_path), mmap_mode="r")
+    if arr.ndim != 2:
+        raise RuntimeError(f"Expected 2D array in '{in_path.name}', found shape {arr.shape}")
+
+    n_samples, n_channels = int(arr.shape[0]), int(arr.shape[1])
+    # Parse sampling frequency or duration from filename if present (e.g., _1490_seconds_10_Hz.npy)
+    dt = 0.01
+    hz_m = re.search(r"_(\d+(?:\.\d+)?)_Hz", in_path.name, re.IGNORECASE)
+    if hz_m:
+        fs = float(hz_m.group(1))
+        if fs > 0:
+            dt = 1.0 / fs
+    sec_m = re.search(r"_(\d+(?:\.\d+)?)_seconds", in_path.name, re.IGNORECASE)
+    transpose_needed = False
+    if sec_m and hz_m:
+        expected_samples = int(round(float(sec_m.group(1)) * float(hz_m.group(1))))
+        if abs(n_channels - expected_samples) < abs(n_samples - expected_samples):
+            transpose_needed = True
+            n_samples, n_channels = n_channels, n_samples
+
+    dx = 4.0
+    gauge_length = 10.0
+    start_epoch = parse_timestamp_epoch(in_path.name) or 0.0
+    n_eff = 1.4682
+    zeta = 0.78
+    wavelength_m = 1550e-9
+    data_scale = 1.0
+    sensitivity = (4.0 * math.pi * n_eff * zeta * gauge_length) / wavelength_m
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with h5py.File(out_path, "w") as dst_h5:
+        write_alcatel_metadata_groups(
+            dst_h5, in_path, dt, dx, gauge_length, start_epoch,
+            data_scale, sensitivity, n_samples, n_channels, n_eff, zeta, wavelength_m, 1,
+        )
+        dst_data = dst_h5.create_dataset(
+            "data",
+            shape=(n_samples, n_channels),
+            dtype=arr.dtype if arr.dtype.kind in ("f", "i", "u") else "<f4",
+            chunks=(min(chunk_samples, n_samples), min(256, n_channels)),
+        )
+        for s0 in range(0, n_samples, chunk_samples):
+            s1 = min(s0 + chunk_samples, n_samples)
+            block = arr[:, s0:s1].T if transpose_needed else arr[s0:s1, :]
+            dst_data[s0:s1, :] = block
+    return "converted_npy"
+
+
 def discover_files(root: Path, pattern: str) -> List[Path]:
     if root.is_file():
         return [root]
     matched = sorted(
         p for p in root.rglob(pattern)
-        if p.is_file() and not p.name.startswith(".") and p.suffix.lower() in (".h5", ".hdf5", ".mat")
+        if p.is_file() and not p.name.startswith(".") and p.suffix.lower() in (".h5", ".hdf5", ".mat", ".npy")
     )
     return matched
 
@@ -881,7 +1122,7 @@ def main() -> None:
     parser.add_argument(
         "--glob",
         default="*",
-        help="Glob pattern when crawling a directory (default: '*' — matches .h5, .hdf5, .mat)",
+        help="Glob pattern when crawling a directory (default: '*' — matches .h5, .hdf5, .mat, .npy)",
     )
     parser.add_argument(
         "--mode",
@@ -890,7 +1131,7 @@ def main() -> None:
         help=(
             "'in-place' (default for HDF5: instant ~1ms/file, adds Alcatel /header & hard-links /data -> /DAS with 0 extra disk space), "
             "'link' (writes 8KB *_optodas.hdf5 ExternalLink wrapper files), "
-            "or 'copy' (writes full standalone *_optodas.hdf5 files; always used for .mat)"
+            "or 'copy' (writes full standalone *_optodas.hdf5 files; always used for .mat/.npy)"
         ),
     )
     parser.add_argument("--inspect", action="store_true", help="Inspect without modifying or writing files")
@@ -902,7 +1143,7 @@ def main() -> None:
 
     targets = discover_files(in_root, args.glob)
     if not targets:
-        sys.exit(f"No .h5, .hdf5, or .mat files found under {in_root} matching '{args.glob}'.")
+        sys.exit(f"No .h5, .hdf5, .mat, or .npy files found under {in_root} matching '{args.glob}'.")
 
     print(f"Found {len(targets)} file(s) under {in_root} (mode={args.mode})")
     t0 = time.time()
@@ -913,6 +1154,9 @@ def main() -> None:
             if fmt == "mat_v5":
                 _, dims, meta_vars = inspect_and_load_mat_v5(fpath)
                 print(f"[{idx}/{len(targets)}] MAT v5: {fpath.name} dims={dims} vars={list(meta_vars.keys())}")
+            elif fmt == "npy":
+                arr = np.load(str(fpath), mmap_mode="r")
+                print(f"[{idx}/{len(targets)}] NPY: {fpath.name} shape={arr.shape} dtype={arr.dtype}")
             else:
                 info = inspect_foreign_hdf5(fpath)
                 print(
@@ -931,13 +1175,13 @@ def main() -> None:
 
         file_t0 = time.time()
         if fmt == "mat_v5":
-            # If the corresponding *_optodas.hdf5 already exists and is also in targets, let the HDF5 repair handle it
-            if out_path.exists() and out_path in targets and not args.output:
-                print(f"[{idx}/{len(targets)}] MAT -> {out_path.name} already exists (will verify/repair HDF5 headers)")
-                continue
-            convert_mat_v5_to_optodas_h5(fpath, out_path)
+            action = convert_mat_v5_to_optodas_h5(fpath, out_path)
             elapsed = time.time() - file_t0
-            print(f"[{idx}/{len(targets)}] Converted MAT -> {out_path.name} ({elapsed:.2f}s)")
+            print(f"[{idx}/{len(targets)}] MAT ({action}) -> {out_path.name} ({elapsed:.3f}s)")
+        elif fmt == "npy":
+            convert_npy_to_optodas_h5(fpath, out_path)
+            elapsed = time.time() - file_t0
+            print(f"[{idx}/{len(targets)}] Converted NPY -> {out_path.name} ({elapsed:.2f}s)")
         else:
             action = convert_foreign_hdf5_to_optodas(fpath, out_path, mode=args.mode)
             elapsed = (time.time() - file_t0) * 1000.0

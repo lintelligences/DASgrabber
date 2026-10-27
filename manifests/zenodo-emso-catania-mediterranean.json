@@ -1,0 +1,92 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/17571118",
+  "zenodo_record_id": "17571118",
+  "doi": "10.5281/zenodo.17571118",
+  "title": "Raw Data from the EMSO Western Ionian Sea Facility DAS Array, Offshore Catania",
+  "crawled_at": "2026-10-26T23:30:21.001609+00:00",
+  "files_found": 10,
+  "files": [
+    {
+      "relative_path": "decimated_20250605T021802.010365_1010_seconds_10_Hz.npy",
+      "url": "https://zenodo.org/api/records/17571118/files/decimated_20250605T021802.010365_1010_seconds_10_Hz.npy/content",
+      "extension": ".npy",
+      "size_bytes": 488840128,
+      "size_hint": "466.19M",
+      "checksum": "md5:3eed5171b79aa8fa60d67ce781ddb596"
+    },
+    {
+      "relative_path": "decimated_20250602T231502.010365_970_seconds_10_Hz.npy",
+      "url": "https://zenodo.org/api/records/17571118/files/decimated_20250602T231502.010365_970_seconds_10_Hz.npy/content",
+      "extension": ".npy",
+      "size_bytes": 469480128,
+      "size_hint": "447.73M",
+      "checksum": "md5:b6ab5878886bf18009281e4e05723f59"
+    },
+    {
+      "relative_path": "decimated_20250522T225003.010523_930_seconds_10_Hz.npy",
+      "url": "https://zenodo.org/api/records/17571118/files/decimated_20250522T225003.010523_930_seconds_10_Hz.npy/content",
+      "extension": ".npy",
+      "size_bytes": 450120128,
+      "size_hint": "429.27M",
+      "checksum": "md5:5f6c8d8de8f7d52c2b477f66182cf25e"
+    },
+    {
+      "relative_path": "decimated_20250611T224503.011263_1490_seconds_10_Hz.npy",
+      "url": "https://zenodo.org/api/records/17571118/files/decimated_20250611T224503.011263_1490_seconds_10_Hz.npy/content",
+      "extension": ".npy",
+      "size_bytes": 176594928,
+      "size_hint": "168.41M",
+      "checksum": "md5:b15ddfe447c9d7e254f1e484987a9798"
+    },
+    {
+      "relative_path": "decimated_20250610T030504.010529_1050_seconds_10_Hz.npy",
+      "url": "https://zenodo.org/api/records/17571118/files/decimated_20250610T030504.010529_1050_seconds_10_Hz.npy/content",
+      "extension": ".npy",
+      "size_bytes": 124446128,
+      "size_hint": "118.68M",
+      "checksum": "md5:63ba1002efa8a2a91e3fd3afe696f70f"
+    },
+    {
+      "relative_path": "Sicily_Ground.mseed",
+      "url": "https://zenodo.org/api/records/17571118/files/Sicily_Ground.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 7975424,
+      "size_hint": "7.61M",
+      "checksum": "md5:1fabd35cf5c01ace24aaa9f03c7a0a64"
+    },
+    {
+      "relative_path": "Libya_Ground.mseed",
+      "url": "https://zenodo.org/api/records/17571118/files/Libya_Ground.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 3698176,
+      "size_hint": "3.53M",
+      "checksum": "md5:18954aa6083300a89baf8a5a1444c8dc"
+    },
+    {
+      "relative_path": "Croatia_Ground.mseed",
+      "url": "https://zenodo.org/api/records/17571118/files/Croatia_Ground.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 3615744,
+      "size_hint": "3.45M",
+      "checksum": "md5:328bde5adaaee45d09e582fc12e8cd3c"
+    },
+    {
+      "relative_path": "Greece_Ground.mseed",
+      "url": "https://zenodo.org/api/records/17571118/files/Greece_Ground.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 3112448,
+      "size_hint": "2.97M",
+      "checksum": "md5:7736a34b6ec95e86794de5f5e92b25c6"
+    },
+    {
+      "relative_path": "Algeria_Ground.mseed",
+      "url": "https://zenodo.org/api/records/17571118/files/Algeria_Ground.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 2223616,
+      "size_hint": "2.12M",
+      "checksum": "md5:d5bd74e19a775048e8e8b9c78aecc821"
+    }
+  ],
+  "dataset_id": "zenodo-emso-catania-mediterranean"
+}

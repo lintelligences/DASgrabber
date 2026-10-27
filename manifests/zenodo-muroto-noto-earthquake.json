@@ -1,0 +1,164 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/16907853",
+  "zenodo_record_id": "16907853",
+  "doi": "10.5281/zenodo.16907853",
+  "title": "DAS data off the Cape Muroto in the Nankai Trough after the M7.6 Noto Peninsula earthquake",
+  "crawled_at": "2026-10-26T23:30:13.575775+00:00",
+  "files_found": 19,
+  "files": [
+    {
+      "relative_path": "20240101_07.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_07.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2484926169,
+      "size_hint": "2369.81M",
+      "checksum": "md5:190cf2740a9446c79696481c1d64b442"
+    },
+    {
+      "relative_path": "20240101_09.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_09.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2339040315,
+      "size_hint": "2230.68M",
+      "checksum": "md5:26621746e0efd76ab5141ec8bfaeab7e"
+    },
+    {
+      "relative_path": "20240101_08.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_08.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2328686524,
+      "size_hint": "2220.81M",
+      "checksum": "md5:a34078a3de1e4d4847f9ac6b166ff308"
+    },
+    {
+      "relative_path": "20240101_11.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_11.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2295559387,
+      "size_hint": "2189.22M",
+      "checksum": "md5:18de0c74e5f4fb6c55a7a71ad9b3a8f4"
+    },
+    {
+      "relative_path": "20240101_10.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_10.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2288793629,
+      "size_hint": "2182.76M",
+      "checksum": "md5:20a5cba85e1e7820dd274f3f5d1c48d2"
+    },
+    {
+      "relative_path": "20240101_23.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_23.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2287603001,
+      "size_hint": "2181.63M",
+      "checksum": "md5:959a6843799d747ec085a5a59c444db7"
+    },
+    {
+      "relative_path": "20240101_22.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_22.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2281694751,
+      "size_hint": "2175.99M",
+      "checksum": "md5:e4d4d9d41e33ab9dc597ec79e09c7c19"
+    },
+    {
+      "relative_path": "20240101_14.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_14.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2281234879,
+      "size_hint": "2175.56M",
+      "checksum": "md5:a586a0eeb40e77090fcfd9368e048b4a"
+    },
+    {
+      "relative_path": "20240101_15.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_15.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2278782511,
+      "size_hint": "2173.22M",
+      "checksum": "md5:e7203b083bf0dd9d55ce086bc9cdd84f"
+    },
+    {
+      "relative_path": "20240101_13.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_13.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2273964736,
+      "size_hint": "2168.62M",
+      "checksum": "md5:47cb946d27a758a9c11cd0fe50e57305"
+    },
+    {
+      "relative_path": "20240101_12.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_12.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2269659958,
+      "size_hint": "2164.52M",
+      "checksum": "md5:e649c89fb5feca8830b67635e9211026"
+    },
+    {
+      "relative_path": "20240101_21.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_21.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2265697898,
+      "size_hint": "2160.74M",
+      "checksum": "md5:abe91420528bac9a5f67ae2055782328"
+    },
+    {
+      "relative_path": "20240101_16.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_16.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2257346061,
+      "size_hint": "2152.77M",
+      "checksum": "md5:33a8c1b869d404195979918a2aca1437"
+    },
+    {
+      "relative_path": "20240101_19.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_19.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2253770402,
+      "size_hint": "2149.36M",
+      "checksum": "md5:f14758c51db7df28b50ec9226ad957e1"
+    },
+    {
+      "relative_path": "20240101_17.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_17.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2245745960,
+      "size_hint": "2141.71M",
+      "checksum": "md5:8e5f68065ec7b5c329b3ce133bc015d5"
+    },
+    {
+      "relative_path": "20240101_18.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_18.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2239287225,
+      "size_hint": "2135.55M",
+      "checksum": "md5:7108528ec61e7b9b05296bd08e900f71"
+    },
+    {
+      "relative_path": "20240101_20.zip",
+      "url": "https://zenodo.org/api/records/16907853/files/20240101_20.zip/content",
+      "extension": ".zip",
+      "size_bytes": 2225493605,
+      "size_hint": "2122.40M",
+      "checksum": "md5:0330cdfb24137c4bd631cde5de160632"
+    },
+    {
+      "relative_path": "channel_muroto.txt",
+      "url": "https://zenodo.org/api/records/16907853/files/channel_muroto.txt/content",
+      "extension": ".txt",
+      "size_bytes": 71518,
+      "size_hint": "71518B",
+      "checksum": "md5:35ded9401706627be832b0f285a9480a"
+    },
+    {
+      "relative_path": "tremor_list_2024.txt",
+      "url": "https://zenodo.org/api/records/16907853/files/tremor_list_2024.txt/content",
+      "extension": ".txt",
+      "size_bytes": 422,
+      "size_hint": "422B",
+      "checksum": "md5:2a4d4a6442a00463ae6feefdf1cede2a"
+    }
+  ],
+  "dataset_id": "zenodo-muroto-noto-earthquake"
+}

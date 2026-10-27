@@ -19,6 +19,7 @@ import argparse
 import html.parser
 import json
 import re
+import ssl
 import sys
 import time
 import urllib.parse
@@ -32,6 +33,40 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CATALOG = REPO_ROOT / "catalog" / "datasets.json"
 MANIFESTS_DIR = REPO_ROOT / "manifests"
 UA_HEADERS = {"User-Agent": "DAS-Catalog-Indexer/2.0 (Metadata-Only; No-Bulk-Download)"}
+
+PRIMARY_WAVEFORM_EXTS = {
+    ".h5", ".hdf5", ".mat", ".mseed", ".sgy", ".segy", ".npy", ".npz", ".tdms", ".bin", ".sac",
+}
+ARCHIVE_WAVEFORM_EXTS = {".zip", ".7z", ".tar", ".gz", ".tgz"}
+
+
+def _urlopen_with_ssl_fallback(req: urllib.request.Request, timeout: int = 30):
+    try:
+        return urllib.request.urlopen(req, timeout=timeout)
+    except urllib.error.URLError as exc:
+        if isinstance(getattr(exc, "reason", None), ssl.SSLError) or "CERTIFICATE_VERIFY_FAILED" in str(exc):
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            return urllib.request.urlopen(req, timeout=timeout, context=ctx)
+        raise
+
+
+def _file_priority_key(f: Dict[str, Any]) -> Tuple[int, int, str]:
+    """Sort primary observed waveform files first, then large waveform archives (>5 MB), then auxiliary/geometry/simulation files."""
+    ext = (f.get("extension") or "").lower()
+    size_bytes = int(f.get("size_bytes") or 0)
+    rel = (f.get("relative_path") or "").lower()
+    is_aux_name = any(
+        kw in rel for kw in ("geometry", "position", "simulation", "synthetic", "readme", "license", "channelinfo", "model")
+    )
+    if is_aux_name:
+        return (2, -size_bytes, rel)
+    if ext in PRIMARY_WAVEFORM_EXTS and (size_bytes == 0 or size_bytes >= 100 * 1024):
+        return (0, -size_bytes, rel)
+    if ext in ARCHIVE_WAVEFORM_EXTS and (size_bytes == 0 or size_bytes >= 5 * 1024 * 1024):
+        return (1, -size_bytes, rel)
+    return (3, -size_bytes, rel)
 
 
 class DirectoryIndexParser(html.parser.HTMLParser):
@@ -79,7 +114,7 @@ def fetch_text(url: str, timeout: int = 30, retries: int = 3) -> str:
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=UA_HEADERS)
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
+            with _urlopen_with_ssl_fallback(req, timeout=timeout) as resp:
                 return resp.read().decode("utf-8", errors="replace")
         except Exception as exc:
             last_err = exc
@@ -247,6 +282,7 @@ def build_manifest_for_dataset(ds: Dict[str, Any], max_depth: int = 2, max_dirs:
     else:
         raise ValueError(f"Unsupported protocol '{proto}' for dataset {ds_id}")
 
+    manifest["files"] = sorted(manifest.get("files", []), key=_file_priority_key)
     manifest["dataset_id"] = ds_id
     out_path = MANIFESTS_DIR / f"{ds_id}.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)

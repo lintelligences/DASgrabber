@@ -240,7 +240,7 @@ def run_convert_worker(job_id: str, dataset_id: str, mode: str, dest_root: Path)
             extract_dir.mkdir(parents=True, exist_ok=True)
             existing_extracted = [
                 p for p in convert_to_optodas_h5.discover_files(extract_dir, "*")
-                if p.suffix.lower() in (".h5", ".hdf5", ".mat")
+                if p.suffix.lower() in (".h5", ".hdf5", ".mat", ".npy")
             ]
             if existing_extracted:
                 continue
@@ -253,7 +253,7 @@ def run_convert_worker(job_id: str, dataset_id: str, mode: str, dest_root: Path)
             with zipfile.ZipFile(zpath, "r") as zf:
                 members = [
                     m for m in zf.infolist()
-                    if not m.is_dir() and Path(m.filename).suffix.lower() in (".h5", ".hdf5", ".mat", ".txt")
+                    if not m.is_dir() and Path(m.filename).suffix.lower() in (".h5", ".hdf5", ".mat", ".npy", ".txt")
                 ]
                 with JOBS_LOCK:
                     JOBS[job_id]["files_total"] = max(1, len(members))
@@ -269,7 +269,7 @@ def run_convert_worker(job_id: str, dataset_id: str, mode: str, dest_root: Path)
             if extract_dir not in search_roots:
                 search_roots.append(extract_dir)
 
-        # 2. Collect all .h5, .hdf5, and .mat files to convert
+        # 2. Collect all .h5, .hdf5, .mat, and .npy files to convert
         targets: List[Path] = []
         seen = set()
         for sroot in search_roots:
@@ -279,7 +279,7 @@ def run_convert_worker(job_id: str, dataset_id: str, mode: str, dest_root: Path)
                     seen.add(rp)
                     targets.append(p)
         for df in direct_files:
-            if df.suffix.lower() in (".h5", ".hdf5", ".mat"):
+            if df.suffix.lower() in (".h5", ".hdf5", ".mat", ".npy"):
                 rp = df.resolve()
                 if rp not in seen:
                     seen.add(rp)
@@ -289,7 +289,7 @@ def run_convert_worker(job_id: str, dataset_id: str, mode: str, dest_root: Path)
             with JOBS_LOCK:
                 JOBS[job_id]["status"] = "error"
                 JOBS[job_id]["error"] = (
-                    f"No .h5, .hdf5, .mat, or .zip files found in {ds_dir} (or {safe_root}). "
+                    f"No .h5, .hdf5, .mat, .npy, or .zip files found in {ds_dir} (or {safe_root}). "
                     f"Click Download first or set Target directory to where your files are located."
                 )
                 JOBS[job_id]["finished_at"] = datetime.now(timezone.utc).isoformat()
@@ -325,6 +325,9 @@ def run_convert_worker(job_id: str, dataset_id: str, mode: str, dest_root: Path)
 
             if fmt == "mat_v5":
                 convert_to_optodas_h5.convert_mat_v5_to_optodas_h5(fpath, out_path)
+                written_bytes = out_path.stat().st_size if out_path.exists() else 0
+            elif fmt == "npy":
+                convert_to_optodas_h5.convert_npy_to_optodas_h5(fpath, out_path)
                 written_bytes = out_path.stat().st_size if out_path.exists() else 0
             else:
                 action = convert_to_optodas_h5.convert_foreign_hdf5_to_optodas(fpath, out_path, mode=mode)

@@ -1,0 +1,20 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/18851481",
+  "zenodo_record_id": "18851481",
+  "doi": "10.5281/zenodo.18851481",
+  "title": "Dataset for the paper \"Tracking ships with submarine cables: Unsupervised arrival time detection and event localization using distributed acoustic sensing\"",
+  "crawled_at": "2026-10-26T23:30:15.216874+00:00",
+  "files_found": 1,
+  "files": [
+    {
+      "relative_path": "Trondheim_DAS_Data.7z",
+      "url": "https://zenodo.org/api/records/18851481/files/Trondheim_DAS_Data.7z/content",
+      "extension": ".7z",
+      "size_bytes": 63506663295,
+      "size_hint": "60564.67M",
+      "checksum": "md5:05798540099fc9afe456ae74c07093eb"
+    }
+  ],
+  "dataset_id": "zenodo-trondheim-submarine-ships"
+}

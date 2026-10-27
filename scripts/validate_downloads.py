@@ -23,23 +23,37 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict
 
-from crawl_http_index import DEFAULT_CATALOG, MANIFESTS_DIR, REPO_ROOT, build_manifest_for_dataset
+from crawl_http_index import (
+    ARCHIVE_WAVEFORM_EXTS,
+    DEFAULT_CATALOG,
+    MANIFESTS_DIR,
+    PRIMARY_WAVEFORM_EXTS,
+    REPO_ROOT,
+    _urlopen_with_ssl_fallback,
+    build_manifest_for_dataset,
+)
 
 TMP_DOWNLOAD_DIR = REPO_ROOT / "downloads" / ".validation_tmp"
 SAMPLE_BYTES = 65536  # 64 KiB slice for large waveform files
 
 
-def detect_signature(head: bytes) -> str:
-    if head.startswith(b"\x89HDF\r\n\x1a\n"):
+def detect_signature(head: bytes, ext: str = "") -> str:
+    if head.startswith(b"\x89HDF\r\n\x1a\n") or (len(head) >= 520 and head[512:520] == b"\x89HDF\r\n\x1a\n"):
         return "HDF5 (\\x89HDF)"
     if head.startswith(b"MATLAB"):
         return "MATLAB v5 MAT-file"
+    if head.startswith(b"\x93NUMPY"):
+        return "NumPy Array (\\x93NUMPY)"
     if head.startswith(b"PK\x03\x04"):
         return "ZIP Archive (PK\\x03\\x04)"
+    if head.startswith(b"7z\xbc\xaf\x27\x1c"):
+        return "7-Zip Archive (7z\\xbc\\xaf)"
     if head.startswith(b"%PDF"):
         return "PDF Document (%PDF)"
     if head.lstrip().startswith((b"<!DOCTYPE html", b"<html", b"<HTML")):
         return "UNEXPECTED_HTML"
+    if ext == ".mseed" and len(head) >= 20 and head[:6].isdigit():
+        return "MiniSEED Waveform"
     # Check if printable text/CSV/Python
     try:
         head[:256].decode("utf-8")
@@ -51,6 +65,7 @@ def detect_signature(head: bytes) -> str:
 def validate_single_file_download(dataset_id: str, file_entry: Dict[str, Any]) -> Dict[str, Any]:
     url = file_entry["url"]
     rel_path = file_entry["relative_path"]
+    ext = (file_entry.get("extension") or Path(rel_path).suffix).lower()
     TMP_DOWNLOAD_DIR.mkdir(parents=True, exist_ok=True)
     tmp_file = TMP_DOWNLOAD_DIR / f"{dataset_id}_{Path(rel_path).name}"
 
@@ -61,7 +76,7 @@ def validate_single_file_download(dataset_id: str, file_entry: Dict[str, Any]) -
             "Range": f"bytes=0-{SAMPLE_BYTES - 1}",
         },
     )
-    with urllib.request.urlopen(req, timeout=30) as resp:
+    with _urlopen_with_ssl_fallback(req, timeout=30) as resp:
         status = resp.status
         content_type = resp.headers.get("Content-Type", "")
         content_range = resp.headers.get("Content-Range", "")
@@ -69,7 +84,7 @@ def validate_single_file_download(dataset_id: str, file_entry: Dict[str, Any]) -
 
     tmp_file.write_bytes(data)
     written_size = tmp_file.stat().st_size
-    sig = detect_signature(data[:64])
+    sig = detect_signature(data[:528], ext=ext)
     sha256_prefix = hashlib.sha256(data).hexdigest()[:16]
 
     # Clean up temporary file immediately
@@ -122,12 +137,24 @@ def main() -> None:
             if not files:
                 raise RuntimeError(f"Manifest for {ds_id} indexed 0 files.")
 
-            # Prefer a waveform/data file (.h5, .mat, .zip, .bin, .csv) if present
-            preferred = [
+            # Strictly require a genuine waveform file or multi-MB waveform archive (never CSV/PDF/TXT/geometry metadata)
+            waveform_files = [
                 f for f in files
-                if f.get("extension") in (".h5", ".hdf5", ".mat", ".zip", ".bin", ".csv", ".pdf", ".txt")
+                if (
+                    (f.get("extension") or "").lower() in PRIMARY_WAVEFORM_EXTS
+                    and int(f.get("size_bytes") or 1_000_000) >= 100 * 1024
+                )
+                or (
+                    (f.get("extension") or "").lower() in ARCHIVE_WAVEFORM_EXTS
+                    and int(f.get("size_bytes") or 10_000_000) >= 5 * 1024 * 1024
+                )
             ]
-            sample_target = preferred[0] if preferred else files[0]
+            if not waveform_files:
+                raise RuntimeError(
+                    f"Dataset {ds_id} contains no waveform data files (only metadata/labels: "
+                    f"{[f.get('relative_path') for f in files[:5]]})."
+                )
+            sample_target = waveform_files[0]
             print(f"  [Validating Download] {sample_target['url']} ...")
             val_info = validate_single_file_download(ds_id, sample_target)
             ds["validation"] = val_info
@@ -147,6 +174,12 @@ def main() -> None:
             report["results"][ds_id] = err_info
             report["failed"] += 1
             print(f"  [FAIL] {ds_id}: {exc}", file=sys.stderr)
+
+    # Remove any stale manifest files not present in catalog/datasets.json
+    active_ids = {ds["id"] for ds in datasets}
+    for mf in MANIFESTS_DIR.glob("*.json"):
+        if mf.name != "validation_report.json" and mf.stem not in active_ids:
+            mf.unlink(missing_ok=True)
 
     # Remove temporary validation directory
     if TMP_DOWNLOAD_DIR.exists():

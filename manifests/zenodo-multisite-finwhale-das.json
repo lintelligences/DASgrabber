@@ -1,0 +1,20 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/15008561",
+  "zenodo_record_id": "15008561",
+  "doi": "10.5281/zenodo.15008561",
+  "title": "Distributed Acoustic Sensing fin whale labeled dataset for level estimations",
+  "crawled_at": "2026-10-26T23:30:26.457093+00:00",
+  "files_found": 1,
+  "files": [
+    {
+      "relative_path": "data.zip",
+      "url": "https://zenodo.org/api/records/15008561/files/data.zip/content",
+      "extension": ".zip",
+      "size_bytes": 1895862303,
+      "size_hint": "1808.04M",
+      "checksum": "md5:cbeb747372ad6c584627719b2d8cc2d8"
+    }
+  ],
+  "dataset_id": "zenodo-multisite-finwhale-das"
+}

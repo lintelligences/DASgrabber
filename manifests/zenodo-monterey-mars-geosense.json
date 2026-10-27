@@ -1,0 +1,108 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/18673947",
+  "zenodo_record_id": "18673947",
+  "doi": "10.5281/zenodo.18673947",
+  "title": "Raw data supporting: \"Geo-Sense: A portable Distributed Acoustic Sensing (DAS) system for high-resolution seafloor monitoring\"",
+  "crawled_at": "2026-10-26T23:30:11.529601+00:00",
+  "files_found": 12,
+  "files": [
+    {
+      "relative_path": "1004.2007.57162.028.202.mseed",
+      "url": "https://zenodo.org/api/records/18673947/files/1004.2007.57162.028.202.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 377487360,
+      "size_hint": "360.00M",
+      "checksum": "md5:76106e3577d208831f44be63f8a95483"
+    },
+    {
+      "relative_path": "1004.2007.57162.029.203.mseed",
+      "url": "https://zenodo.org/api/records/18673947/files/1004.2007.57162.029.203.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 377487360,
+      "size_hint": "360.00M",
+      "checksum": "md5:fd22f0c16ed1832ea6697461f8457a10"
+    },
+    {
+      "relative_path": "1004.2007.57162.030.204.mseed",
+      "url": "https://zenodo.org/api/records/18673947/files/1004.2007.57162.030.204.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 377487360,
+      "size_hint": "360.00M",
+      "checksum": "md5:acc3abc112e283b486579dceaa412c97"
+    },
+    {
+      "relative_path": "1004.2007.57162.031.205.mseed",
+      "url": "https://zenodo.org/api/records/18673947/files/1004.2007.57162.031.205.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 377487360,
+      "size_hint": "360.00M",
+      "checksum": "md5:a2d41f3435568f11fd648ed04f88de70"
+    },
+    {
+      "relative_path": "1004.2007.57162.032.206.mseed",
+      "url": "https://zenodo.org/api/records/18673947/files/1004.2007.57162.032.206.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 377487360,
+      "size_hint": "360.00M",
+      "checksum": "md5:338562f3e9edb7c9af5548ccc7340356"
+    },
+    {
+      "relative_path": "1004.2007.57162.033.207.mseed",
+      "url": "https://zenodo.org/api/records/18673947/files/1004.2007.57162.033.207.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 377487360,
+      "size_hint": "360.00M",
+      "checksum": "md5:5dc528c4e2f0be1d613fcaee83c19e81"
+    },
+    {
+      "relative_path": "1004.2007.57162.034.208.mseed",
+      "url": "https://zenodo.org/api/records/18673947/files/1004.2007.57162.034.208.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 377487360,
+      "size_hint": "360.00M",
+      "checksum": "md5:db1f3f15ee3cbe3f9708406108166e1f"
+    },
+    {
+      "relative_path": "1004.2007.57162.035.209.mseed",
+      "url": "https://zenodo.org/api/records/18673947/files/1004.2007.57162.035.209.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 377487360,
+      "size_hint": "360.00M",
+      "checksum": "md5:cceaca7a6a26311b804103ca4afd4ffa"
+    },
+    {
+      "relative_path": "1004.2007.57162.036.210.mseed",
+      "url": "https://zenodo.org/api/records/18673947/files/1004.2007.57162.036.210.mseed/content",
+      "extension": ".mseed",
+      "size_bytes": 377487360,
+      "size_hint": "360.00M",
+      "checksum": "md5:7c950054d7acfd24d1114dccbedeb1ad"
+    },
+    {
+      "relative_path": "Geo-Sense - eq_data_fs.zip",
+      "url": "https://zenodo.org/api/records/18673947/files/Geo-Sense%20-%20eq_data_fs.zip/content",
+      "extension": ".zip",
+      "size_bytes": 4432883410,
+      "size_hint": "4227.53M",
+      "checksum": "md5:2508b12f5405efadce615ed80b11630d"
+    },
+    {
+      "relative_path": "Geo-Sense decimated_full.zip",
+      "url": "https://zenodo.org/api/records/18673947/files/Geo-Sense%20decimated_full.zip/content",
+      "extension": ".zip",
+      "size_bytes": 3574372518,
+      "size_hint": "3408.79M",
+      "checksum": "md5:f47dda7405903a53e2993a165a5e9e5b"
+    },
+    {
+      "relative_path": "adcp_jan28_feb5.nc",
+      "url": "https://zenodo.org/api/records/18673947/files/adcp_jan28_feb5.nc/content",
+      "extension": ".nc",
+      "size_bytes": 75095951,
+      "size_hint": "71.62M",
+      "checksum": "md5:896b171660d0356f36eef82dca2003e6"
+    }
+  ],
+  "dataset_id": "zenodo-monterey-mars-geosense"
+}

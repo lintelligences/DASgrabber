@@ -1,0 +1,52 @@
+{
+  "protocol": "zenodo_api",
+  "root_url": "https://zenodo.org/api/records/15611778",
+  "zenodo_record_id": "15611778",
+  "doi": "10.5281/zenodo.15611778",
+  "title": "Marlinks-NS DAS Dataset for Vessel Detection and Distance Estimation Using Distributed Acoustic Sensing in Submarine Optical Fiber Cables",
+  "crawled_at": "2026-10-26T23:30:17.257597+00:00",
+  "files_found": 5,
+  "files": [
+    {
+      "relative_path": "dataset_sensor_range_1440_1690_0.h5",
+      "url": "https://zenodo.org/api/records/15611778/files/dataset_sensor_range_1440_1690_0.h5/content",
+      "extension": ".h5",
+      "size_bytes": 14116019082,
+      "size_hint": "13462.08M",
+      "checksum": "md5:407ad62bb8eb02f472cda329d0f31750"
+    },
+    {
+      "relative_path": "README.pdf",
+      "url": "https://zenodo.org/api/records/15611778/files/README.pdf/content",
+      "extension": ".pdf",
+      "size_bytes": 96617,
+      "size_hint": "96617B",
+      "checksum": "md5:4cf9cc83684c9b166b9a55725729be45"
+    },
+    {
+      "relative_path": "README.md",
+      "url": "https://zenodo.org/api/records/15611778/files/README.md/content",
+      "extension": ".md",
+      "size_bytes": 23103,
+      "size_hint": "23103B",
+      "checksum": "md5:110a4d2e8566ac2f400e74d691c32f4d"
+    },
+    {
+      "relative_path": "misc.zip",
+      "url": "https://zenodo.org/api/records/15611778/files/misc.zip/content",
+      "extension": ".zip",
+      "size_bytes": 6706,
+      "size_hint": "6706B",
+      "checksum": "md5:fb8854d6a7c3298db2db8405d543f120"
+    },
+    {
+      "relative_path": "src.zip",
+      "url": "https://zenodo.org/api/records/15611778/files/src.zip/content",
+      "extension": ".zip",
+      "size_bytes": 3991,
+      "size_hint": "3991B",
+      "checksum": "md5:1ba5bf1bfb575257511cd3b53a090510"
+    }
+  ],
+  "dataset_id": "zenodo-marlinks-north-sea"
+}
